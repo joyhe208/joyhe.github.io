@@ -1,0 +1,3563 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f7cc27ac81344b9c97b34555791bb8fe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f7cc27ac81344b9c97b34555791bb8fe" ></div>
+        
+</body>
+<script>    
+    
+            var map_f7cc27ac81344b9c97b34555791bb8fe = L.map(
+                "map_f7cc27ac81344b9c97b34555791bb8fe",
+                {
+                    center: [42.3736, -71.1097],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8d593fbb668f434787d5dc03096cbc4e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var marker_771fc49e9dda4ec7bc18d0e46fdc0981 = L.marker(
+                [42.36889, -71.06],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_d31f1da8fbda441ba0e5b0503579f7bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_771fc49e9dda4ec7bc18d0e46fdc0981.setIcon(icon_d31f1da8fbda441ba0e5b0503579f7bc);
+        
+    
+        var popup_4cc12f6d6c474163b0012d5633825eda = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_2a2616e69c5e49fea75f81cb579fac24 = $(`<div id="html_2a2616e69c5e49fea75f81cb579fac24" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Charlestown Bridge</strong><br><img src= "bridgeimages/pic0.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_4cc12f6d6c474163b0012d5633825eda.setContent(html_2a2616e69c5e49fea75f81cb579fac24);
+        
+
+        marker_771fc49e9dda4ec7bc18d0e46fdc0981.bindPopup(popup_4cc12f6d6c474163b0012d5633825eda)
+        ;
+
+        
+    
+    
+            var marker_1c58cc004742426c92f391b41ca546b9 = L.marker(
+                [42.36861, -71.0614167],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_92bdedcabed042f09cb5bd02dd1e2bb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c58cc004742426c92f391b41ca546b9.setIcon(icon_92bdedcabed042f09cb5bd02dd1e2bb8);
+        
+    
+        var popup_d21abe0fbecd4056a1e7d48cc99eebc6 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_051af136264d4f8aa2187a8aedb9d1b0 = $(`<div id="html_051af136264d4f8aa2187a8aedb9d1b0" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">(New) Charles River Dam</strong><br></div>`)[0];
+            popup_d21abe0fbecd4056a1e7d48cc99eebc6.setContent(html_051af136264d4f8aa2187a8aedb9d1b0);
+        
+
+        marker_1c58cc004742426c92f391b41ca546b9.bindPopup(popup_d21abe0fbecd4056a1e7d48cc99eebc6)
+        ;
+
+        
+    
+    
+            var marker_1e663f2c87eb4b75a17d166c5d81812b = L.marker(
+                [42.36889, -71.06361],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_bd4a4852d90e4b28bdaa59f42ad07080 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e663f2c87eb4b75a17d166c5d81812b.setIcon(icon_bd4a4852d90e4b28bdaa59f42ad07080);
+        
+    
+        var popup_f84c809aae9b4ed6b584e9a87dcce44c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_84f391890cc34af4a9fbdf2acfe653de = $(`<div id="html_84f391890cc34af4a9fbdf2acfe653de" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Leonard P. Zakim Bunker Hill Bridge</strong><br></div>`)[0];
+            popup_f84c809aae9b4ed6b584e9a87dcce44c.setContent(html_84f391890cc34af4a9fbdf2acfe653de);
+        
+
+        marker_1e663f2c87eb4b75a17d166c5d81812b.bindPopup(popup_f84c809aae9b4ed6b584e9a87dcce44c)
+        ;
+
+        
+    
+    
+            var marker_acd24d216ead462eb575d6942c359877 = L.marker(
+                [42.36889, -71.06444],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_79a40deafaf64f91a84c9f041b73f942 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_acd24d216ead462eb575d6942c359877.setIcon(icon_79a40deafaf64f91a84c9f041b73f942);
+        
+    
+        var popup_cfdf04294b534a38b0cf64af85385b37 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_c91b71fbcd0c48538b3261d5b409d3a1 = $(`<div id="html_c91b71fbcd0c48538b3261d5b409d3a1" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Leverett Circle Connector Bridge</strong><br></div>`)[0];
+            popup_cfdf04294b534a38b0cf64af85385b37.setContent(html_c91b71fbcd0c48538b3261d5b409d3a1);
+        
+
+        marker_acd24d216ead462eb575d6942c359877.bindPopup(popup_cfdf04294b534a38b0cf64af85385b37)
+        ;
+
+        
+    
+    
+            var marker_6c8a3f04ceb54400a7499a66217646e7 = L.marker(
+                [42.3689694, -71.0652667],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_eb2787885a134f2da9b19564cdec2e39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c8a3f04ceb54400a7499a66217646e7.setIcon(icon_eb2787885a134f2da9b19564cdec2e39);
+        
+    
+        var popup_8294a4b95e8542f8acc8088234eb33ca = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_85469bc9bf9b4613b1d796019565f125 = $(`<div id="html_85469bc9bf9b4613b1d796019565f125" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">MBTA Commuter Rail Charles River Bridge</strong><br></div>`)[0];
+            popup_8294a4b95e8542f8acc8088234eb33ca.setContent(html_85469bc9bf9b4613b1d796019565f125);
+        
+
+        marker_6c8a3f04ceb54400a7499a66217646e7.bindPopup(popup_8294a4b95e8542f8acc8088234eb33ca)
+        ;
+
+        
+    
+    
+            var marker_aad55146659e477ba6bd1dafd6b18c16 = L.marker(
+                [42.3673111, -71.0689694],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_cf10bdc30e9b47eb85369b5858f70ec0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aad55146659e477ba6bd1dafd6b18c16.setIcon(icon_cf10bdc30e9b47eb85369b5858f70ec0);
+        
+    
+        var popup_72d63024c4034a4a9702c8686c18a38e = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_2f3a92d7b704437db50407f30e1fc081 = $(`<div id="html_2f3a92d7b704437db50407f30e1fc081" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">MBTA Green Line Lechmere Viaduct</strong><br><img src= "bridgeimages/pic5.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_72d63024c4034a4a9702c8686c18a38e.setContent(html_2f3a92d7b704437db50407f30e1fc081);
+        
+
+        marker_aad55146659e477ba6bd1dafd6b18c16.bindPopup(popup_72d63024c4034a4a9702c8686c18a38e)
+        ;
+
+        
+    
+    
+            var marker_a8defcbc60554b56a832ede619b4d726 = L.marker(
+                [42.3671278, -71.0691306],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_7647ecb99a724a538c11afb47fa34bfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8defcbc60554b56a832ede619b4d726.setIcon(icon_7647ecb99a724a538c11afb47fa34bfb);
+        
+    
+        var popup_a935b8a18ab8451b95f5a59fbd0299ea = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_741fdc73a20049d89ba187bcc3f9e460 = $(`<div id="html_741fdc73a20049d89ba187bcc3f9e460" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">(Old) Charles River Dam Bridge</strong><br></div>`)[0];
+            popup_a935b8a18ab8451b95f5a59fbd0299ea.setContent(html_741fdc73a20049d89ba187bcc3f9e460);
+        
+
+        marker_a8defcbc60554b56a832ede619b4d726.bindPopup(popup_a935b8a18ab8451b95f5a59fbd0299ea)
+        ;
+
+        
+    
+    
+            var marker_fafe120cd2aa473b9e0af393776c6508 = L.marker(
+                [42.36139, -71.07556],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_7aaaf7accc6d4a6b855e383b7bd7b231 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fafe120cd2aa473b9e0af393776c6508.setIcon(icon_7aaaf7accc6d4a6b855e383b7bd7b231);
+        
+    
+        var popup_b869041217d64803b3801a8cd861890b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_851cd76edcf2442aaddef08ec8992f2d = $(`<div id="html_851cd76edcf2442aaddef08ec8992f2d" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Longfellow Bridge</strong><br><img src= "bridgeimages/pic7.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_b869041217d64803b3801a8cd861890b.setContent(html_851cd76edcf2442aaddef08ec8992f2d);
+        
+
+        marker_fafe120cd2aa473b9e0af393776c6508.bindPopup(popup_b869041217d64803b3801a8cd861890b)
+        ;
+
+        
+    
+    
+            var marker_0c3aa9a7bf674a36bce8d0b6bd615497 = L.marker(
+                [42.35417, -71.09111],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_8de47afba5b241e19d76e9cb1a6f0b2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0c3aa9a7bf674a36bce8d0b6bd615497.setIcon(icon_8de47afba5b241e19d76e9cb1a6f0b2f);
+        
+    
+        var popup_7106beeb0cff4ee69aec90e6457eafb3 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_6e6645025cf34efcaf1a1eaeffee7a1f = $(`<div id="html_6e6645025cf34efcaf1a1eaeffee7a1f" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Harvard Bridge</strong><br><img src= "bridgeimages/pic8.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_7106beeb0cff4ee69aec90e6457eafb3.setContent(html_6e6645025cf34efcaf1a1eaeffee7a1f);
+        
+
+        marker_0c3aa9a7bf674a36bce8d0b6bd615497.bindPopup(popup_7106beeb0cff4ee69aec90e6457eafb3)
+        ;
+
+        
+    
+    
+            var marker_676438f4541e48eea1b4ae8ed393f60d = L.marker(
+                [42.3525333, -71.1106278],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_957b35bd020647438f7377bdcdedb61c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_676438f4541e48eea1b4ae8ed393f60d.setIcon(icon_957b35bd020647438f7377bdcdedb61c);
+        
+    
+        var popup_39048c410f50436a998cf7fe6e17e075 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_68d0c6bf7854451181b303a5445dbf1b = $(`<div id="html_68d0c6bf7854451181b303a5445dbf1b" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Boston University Bridge</strong><br><img src= "bridgeimages/pic9.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_39048c410f50436a998cf7fe6e17e075.setContent(html_68d0c6bf7854451181b303a5445dbf1b);
+        
+
+        marker_676438f4541e48eea1b4ae8ed393f60d.bindPopup(popup_39048c410f50436a998cf7fe6e17e075)
+        ;
+
+        
+    
+    
+            var marker_7dbc4ead47e640d7bf5e4850a0308089 = L.marker(
+                [42.3526917, -71.1102],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_03d3eb58bd1142d4aa7f8fabb3d0760d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7dbc4ead47e640d7bf5e4850a0308089.setIcon(icon_03d3eb58bd1142d4aa7f8fabb3d0760d);
+        
+    
+        var popup_6929dc9502e843978478b07ff00d60dd = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_86408b144a304fcb813194b4b36fb4ca = $(`<div id="html_86408b144a304fcb813194b4b36fb4ca" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Grand Junction Railroad Bridge</strong><br></div>`)[0];
+            popup_6929dc9502e843978478b07ff00d60dd.setContent(html_86408b144a304fcb813194b4b36fb4ca);
+        
+
+        marker_7dbc4ead47e640d7bf5e4850a0308089.bindPopup(popup_6929dc9502e843978478b07ff00d60dd)
+        ;
+
+        
+    
+    
+            var marker_babb86624db84d08aa23bbbfb0078c4a = L.marker(
+                [42.36139, -71.11667],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_54ebd81eb09f408da78ba5231f75593b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_babb86624db84d08aa23bbbfb0078c4a.setIcon(icon_54ebd81eb09f408da78ba5231f75593b);
+        
+    
+        var popup_32c07a50cb7a43c8b919ebc9d08b5481 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_18a4c1648f4f4b8287cbdd5aea0948de = $(`<div id="html_18a4c1648f4f4b8287cbdd5aea0948de" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">River Street Bridge</strong><br><img src= "bridgeimages/pic11.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_32c07a50cb7a43c8b919ebc9d08b5481.setContent(html_18a4c1648f4f4b8287cbdd5aea0948de);
+        
+
+        marker_babb86624db84d08aa23bbbfb0078c4a.bindPopup(popup_32c07a50cb7a43c8b919ebc9d08b5481)
+        ;
+
+        
+    
+    
+            var marker_e1c73419beec40b79b2e667242015944 = L.marker(
+                [42.3642361, -71.1169806],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_8a4e395d92464b38bba475831af316d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1c73419beec40b79b2e667242015944.setIcon(icon_8a4e395d92464b38bba475831af316d6);
+        
+    
+        var popup_5e012548966d4a21a903f175ba32039d = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_a5032185f74b4d6fa8a5c66160427db9 = $(`<div id="html_a5032185f74b4d6fa8a5c66160427db9" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Western Avenue Bridge</strong><br><img src= "bridgeimages/pic12.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_5e012548966d4a21a903f175ba32039d.setContent(html_a5032185f74b4d6fa8a5c66160427db9);
+        
+
+        marker_e1c73419beec40b79b2e667242015944.bindPopup(popup_5e012548966d4a21a903f175ba32039d)
+        ;
+
+        
+    
+    
+            var marker_8d84961379394d4cbc68bc639807b284 = L.marker(
+                [42.3685083, -71.1181278],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_051d3fa494f34d758ec6ce49fcfa60d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8d84961379394d4cbc68bc639807b284.setIcon(icon_051d3fa494f34d758ec6ce49fcfa60d9);
+        
+    
+        var popup_8903e1f7d25a4e96af42fffe0af61ef7 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_0cb924ee01c644beb4060c2fbba31c03 = $(`<div id="html_0cb924ee01c644beb4060c2fbba31c03" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">John W. Weeks Bridge</strong><br><img src= "bridgeimages/pic13.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_8903e1f7d25a4e96af42fffe0af61ef7.setContent(html_0cb924ee01c644beb4060c2fbba31c03);
+        
+
+        marker_8d84961379394d4cbc68bc639807b284.bindPopup(popup_8903e1f7d25a4e96af42fffe0af61ef7)
+        ;
+
+        
+    
+    
+            var marker_4a6901a7d00b4d5195a577c2d1b6b157 = L.marker(
+                [42.36889, -71.12306],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_a36baa827ef242218c0b1b3fd5c2336b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a6901a7d00b4d5195a577c2d1b6b157.setIcon(icon_a36baa827ef242218c0b1b3fd5c2336b);
+        
+    
+        var popup_8762827a355e41e6ace6c36b8990602a = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_2cc9169fc96a4da7a7f36033467b2899 = $(`<div id="html_2cc9169fc96a4da7a7f36033467b2899" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Anderson Memorial Bridge</strong><br><img src= "bridgeimages/pic14.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_8762827a355e41e6ace6c36b8990602a.setContent(html_2cc9169fc96a4da7a7f36033467b2899);
+        
+
+        marker_4a6901a7d00b4d5195a577c2d1b6b157.bindPopup(popup_8762827a355e41e6ace6c36b8990602a)
+        ;
+
+        
+    
+    
+            var marker_e204e9cd40294bdbb76648b4c21c26fb = L.marker(
+                [42.37167, -71.13306],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f175050c69ba4aa69707b4c3186ecbac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e204e9cd40294bdbb76648b4c21c26fb.setIcon(icon_f175050c69ba4aa69707b4c3186ecbac);
+        
+    
+        var popup_ad437d5242bb453fbfdfa62a37e9f94b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_b477b80ec8d748359e9492a1787ced2c = $(`<div id="html_b477b80ec8d748359e9492a1787ced2c" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Eliot Bridge</strong><br><img src= "bridgeimages/pic15.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_ad437d5242bb453fbfdfa62a37e9f94b.setContent(html_b477b80ec8d748359e9492a1787ced2c);
+        
+
+        marker_e204e9cd40294bdbb76648b4c21c26fb.bindPopup(popup_ad437d5242bb453fbfdfa62a37e9f94b)
+        ;
+
+        
+    
+    
+            var marker_f80fede8b12649bea7411de0bf5f5f6d = L.marker(
+                [42.36167, -71.14722],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_0b8273a5d17c4440ac7e7dabb623abe8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f80fede8b12649bea7411de0bf5f5f6d.setIcon(icon_0b8273a5d17c4440ac7e7dabb623abe8);
+        
+    
+        var popup_4d6fe81252b64c4d888ce88910c7b6d4 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_7b4d99c995094bf99d7ae64885e928bb = $(`<div id="html_7b4d99c995094bf99d7ae64885e928bb" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Arsenal Street Bridge</strong><br><img src= "bridgeimages/pic16.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_4d6fe81252b64c4d888ce88910c7b6d4.setContent(html_7b4d99c995094bf99d7ae64885e928bb);
+        
+
+        marker_f80fede8b12649bea7411de0bf5f5f6d.bindPopup(popup_4d6fe81252b64c4d888ce88910c7b6d4)
+        ;
+
+        
+    
+    
+            var marker_bf01aa7113694670b6b670fcdc9f515f = L.marker(
+                [42.35889, -71.16167],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_e70e4080fcfb4aa9a63e57cb2cbf1e79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf01aa7113694670b6b670fcdc9f515f.setIcon(icon_e70e4080fcfb4aa9a63e57cb2cbf1e79);
+        
+    
+        var popup_df8fb3137d514f05b66c1336ca6fe327 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9d55dd2faa0d444499e793f59f80627b = $(`<div id="html_9d55dd2faa0d444499e793f59f80627b" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">North Beacon Street Bridge</strong><br><img src= "bridgeimages/pic17.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_df8fb3137d514f05b66c1336ca6fe327.setContent(html_9d55dd2faa0d444499e793f59f80627b);
+        
+
+        marker_bf01aa7113694670b6b670fcdc9f515f.bindPopup(popup_df8fb3137d514f05b66c1336ca6fe327)
+        ;
+
+        
+    
+    
+            var marker_9c5dab675dfb48bebcf8c34af0402b34 = L.marker(
+                [42.36472, -71.18556],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_adfc81a09f1042bc9e9f125d7cec2791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9c5dab675dfb48bebcf8c34af0402b34.setIcon(icon_adfc81a09f1042bc9e9f125d7cec2791);
+        
+    
+        var popup_86462da18eda4675859c518c1dadccc5 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_3a8cb7fc12144c5188f3dc6929cb20ad = $(`<div id="html_3a8cb7fc12144c5188f3dc6929cb20ad" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Watertown Bridge</strong><br><img src= "bridgeimages/pic18.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_86462da18eda4675859c518c1dadccc5.setContent(html_3a8cb7fc12144c5188f3dc6929cb20ad);
+        
+
+        marker_9c5dab675dfb48bebcf8c34af0402b34.bindPopup(popup_86462da18eda4675859c518c1dadccc5)
+        ;
+
+        
+    
+    
+            var marker_888bfb7582bd450d9255a9fd6daf4a5a = L.marker(
+                [42.3653528, -71.1892611],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_6d77b037883c4580a696ef26ab3fe3b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_888bfb7582bd450d9255a9fd6daf4a5a.setIcon(icon_6d77b037883c4580a696ef26ab3fe3b7);
+        
+    
+        var popup_e70f54b75bec4269863cfa370782055d = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_466189b1306e4596b34b71eaa8f000a1 = $(`<div id="html_466189b1306e4596b34b71eaa8f000a1" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Watertown Dam</strong><br></div>`)[0];
+            popup_e70f54b75bec4269863cfa370782055d.setContent(html_466189b1306e4596b34b71eaa8f000a1);
+        
+
+        marker_888bfb7582bd450d9255a9fd6daf4a5a.bindPopup(popup_e70f54b75bec4269863cfa370782055d)
+        ;
+
+        
+    
+    
+            var marker_53ce07e32b1347aca25c2db157132f18 = L.marker(
+                [42.3651083, -71.1902694],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_709a293e2c0f411abf90cbe092e70a1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53ce07e32b1347aca25c2db157132f18.setIcon(icon_709a293e2c0f411abf90cbe092e70a1b);
+        
+    
+        var popup_322f429e1c8b4ab08d0c926c0ee82752 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_4e43acfb2c6546eca08b6992000a2e0a = $(`<div id="html_4e43acfb2c6546eca08b6992000a2e0a" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Cpl. Joseph U. Thompson Footbridge</strong><br></div>`)[0];
+            popup_322f429e1c8b4ab08d0c926c0ee82752.setContent(html_4e43acfb2c6546eca08b6992000a2e0a);
+        
+
+        marker_53ce07e32b1347aca25c2db157132f18.bindPopup(popup_322f429e1c8b4ab08d0c926c0ee82752)
+        ;
+
+        
+    
+    
+            var marker_fa4fdc24d82e40da8180affebb2b9049 = L.marker(
+                [42.3651083, -71.1902694],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_550975c22562408a8398ed495ee37d71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa4fdc24d82e40da8180affebb2b9049.setIcon(icon_550975c22562408a8398ed495ee37d71);
+        
+    
+        var popup_29222ed31f25413e947a114334810b2a = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_de03fbaff093404b9227156bb426e338 = $(`<div id="html_de03fbaff093404b9227156bb426e338" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Cpl. Joseph U. Thompson Footbridge (new)</strong><br><img src= "bridgeimages/pic21.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_29222ed31f25413e947a114334810b2a.setContent(html_de03fbaff093404b9227156bb426e338);
+        
+
+        marker_fa4fdc24d82e40da8180affebb2b9049.bindPopup(popup_29222ed31f25413e947a114334810b2a)
+        ;
+
+        
+    
+    
+            var marker_e794480132bf409abec403e872a340ac = L.marker(
+                [42.3657972, -71.2044333],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_8c867d3b5730452ea8b028ac5c0421d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e794480132bf409abec403e872a340ac.setIcon(icon_8c867d3b5730452ea8b028ac5c0421d0);
+        
+    
+        var popup_a5816c224d7343ca82272233251c4463 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_dbd98eb464ea4f6a968dd6ab47c49a48 = $(`<div id="html_dbd98eb464ea4f6a968dd6ab47c49a48" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Bridge Street Bridge1</strong><br><img src= "bridgeimages/pic22.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_a5816c224d7343ca82272233251c4463.setContent(html_dbd98eb464ea4f6a968dd6ab47c49a48);
+        
+
+        marker_e794480132bf409abec403e872a340ac.bindPopup(popup_a5816c224d7343ca82272233251c4463)
+        ;
+
+        
+    
+    
+            var marker_0be887e737c0470fbb0dbf1dfe9b4db5 = L.marker(
+                [42.3657167, -71.2049778],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_43f833731727499591b98930ad27c8ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0be887e737c0470fbb0dbf1dfe9b4db5.setIcon(icon_43f833731727499591b98930ad27c8ea);
+        
+    
+        var popup_0f8adda993614dc6b3ea27b5c1b6d6cd = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_04725605a94a436bb4256c3a8c76a3cf = $(`<div id="html_04725605a94a436bb4256c3a8c76a3cf" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Bemis Dam (breached)</strong><br></div>`)[0];
+            popup_0f8adda993614dc6b3ea27b5c1b6d6cd.setContent(html_04725605a94a436bb4256c3a8c76a3cf);
+        
+
+        marker_0be887e737c0470fbb0dbf1dfe9b4db5.bindPopup(popup_0f8adda993614dc6b3ea27b5c1b6d6cd)
+        ;
+
+        
+    
+    
+            var marker_e3865be1e1a840e8851185b5c253f7ac = L.marker(
+                [42.3648139, -71.2127361],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f9a5131a05044626abcf707069107f5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3865be1e1a840e8851185b5c253f7ac.setIcon(icon_f9a5131a05044626abcf707069107f5f);
+        
+    
+        var popup_fff6f17a570a436db878acd7f380daeb = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_a9596d90f6b2449bbb702e328bf36ded = $(`<div id="html_a9596d90f6b2449bbb702e328bf36ded" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Blue Heron Footbridge</strong><br><img src= "bridgeimages/pic24.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_fff6f17a570a436db878acd7f380daeb.setContent(html_a9596d90f6b2449bbb702e328bf36ded);
+        
+
+        marker_e3865be1e1a840e8851185b5c253f7ac.bindPopup(popup_fff6f17a570a436db878acd7f380daeb)
+        ;
+
+        
+    
+    
+            var marker_cc679b29088e4239ab472e2227734a29 = L.marker(
+                [42.367028, -71.218083],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_77faa6ac6cdf4c038b8e9923f5ad17dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc679b29088e4239ab472e2227734a29.setIcon(icon_77faa6ac6cdf4c038b8e9923f5ad17dc);
+        
+    
+        var popup_7f84f6e0ee8540868acfe752ba4804cc = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_76e4557947ac4e1e8f3c903efc3471b7 = $(`<div id="html_76e4557947ac4e1e8f3c903efc3471b7" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Farwell Street Bridge</strong><br><img src= "bridgeimages/pic25.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_7f84f6e0ee8540868acfe752ba4804cc.setContent(html_76e4557947ac4e1e8f3c903efc3471b7);
+        
+
+        marker_cc679b29088e4239ab472e2227734a29.bindPopup(popup_7f84f6e0ee8540868acfe752ba4804cc)
+        ;
+
+        
+    
+    
+            var marker_c8ac202d7f1b47c7b8234d6147581125 = L.marker(
+                [42.368944, -71.222333],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f9bf0a2ceaa946aea8ce2ea539c4588e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c8ac202d7f1b47c7b8234d6147581125.setIcon(icon_f9bf0a2ceaa946aea8ce2ea539c4588e);
+        
+    
+        var popup_d21722e0a89d4cf6ba8234dfbebb7946 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_400072960f164edc89d778353bd10c47 = $(`<div id="html_400072960f164edc89d778353bd10c47" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Bleachery Footbridge</strong><br></div>`)[0];
+            popup_d21722e0a89d4cf6ba8234dfbebb7946.setContent(html_400072960f164edc89d778353bd10c47);
+        
+
+        marker_c8ac202d7f1b47c7b8234d6147581125.bindPopup(popup_d21722e0a89d4cf6ba8234dfbebb7946)
+        ;
+
+        
+    
+    
+            var marker_d1e4ce8c85d344e79764416d39595af8 = L.marker(
+                [42.3691194, -71.2229833],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_739d218aee6e4c42a3095cba5609b71d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1e4ce8c85d344e79764416d39595af8.setIcon(icon_739d218aee6e4c42a3095cba5609b71d);
+        
+    
+        var popup_699932a8243c4c36a8c0bef2493de5c6 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_a2ca591398824dd6a591075f6bf54552 = $(`<div id="html_a2ca591398824dd6a591075f6bf54552" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Bleachery Dam</strong><br></div>`)[0];
+            popup_699932a8243c4c36a8c0bef2493de5c6.setContent(html_a2ca591398824dd6a591075f6bf54552);
+        
+
+        marker_d1e4ce8c85d344e79764416d39595af8.bindPopup(popup_699932a8243c4c36a8c0bef2493de5c6)
+        ;
+
+        
+    
+    
+            var marker_6c9988706a634896b0ec73dd1506b5d0 = L.marker(
+                [42.36965, -71.2238722],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_6529f288cca54ac38368287dda1944d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c9988706a634896b0ec73dd1506b5d0.setIcon(icon_6529f288cca54ac38368287dda1944d0);
+        
+    
+        var popup_03056353048940289c146f75af2ecd9c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_8ce9c1ad814d45ddb308edaf17f5434f = $(`<div id="html_8ce9c1ad814d45ddb308edaf17f5434f" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Mary T. Early Footbridge</strong><br><img src= "bridgeimages/pic28.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_03056353048940289c146f75af2ecd9c.setContent(html_8ce9c1ad814d45ddb308edaf17f5434f);
+        
+
+        marker_6c9988706a634896b0ec73dd1506b5d0.bindPopup(popup_03056353048940289c146f75af2ecd9c)
+        ;
+
+        
+    
+    
+            var marker_d2360b8f58bd4409b79ce6c8e0c7a092 = L.marker(
+                [42.3697528, -71.2239694],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_a210f9d120aa42ccb2cac31b52bce8be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2360b8f58bd4409b79ce6c8e0c7a092.setIcon(icon_a210f9d120aa42ccb2cac31b52bce8be);
+        
+    
+        var popup_e09067bfc520483799c20d2c8cac4bab = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_26cffa684f05493aabd4109c1fdec2fd = $(`<div id="html_26cffa684f05493aabd4109c1fdec2fd" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Boston & Maine Railroad trestle (abandoned)</strong><br></div>`)[0];
+            popup_e09067bfc520483799c20d2c8cac4bab.setContent(html_26cffa684f05493aabd4109c1fdec2fd);
+        
+
+        marker_d2360b8f58bd4409b79ce6c8e0c7a092.bindPopup(popup_e09067bfc520483799c20d2c8cac4bab)
+        ;
+
+        
+    
+    
+            var marker_9f5a90a1ef2542798790d1521a90485f = L.marker(
+                [42.3725278, -71.2287528],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_53092642e45a4562a6b07437e433ef0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9f5a90a1ef2542798790d1521a90485f.setIcon(icon_53092642e45a4562a6b07437e433ef0b);
+        
+    
+        var popup_a4e9ca88d764429d81672feb763da2e7 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f616ecc52e3841058a401f408eae1fc2 = $(`<div id="html_f616ecc52e3841058a401f408eae1fc2" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Charles F. Graceffa Bridge</strong><br><img src= "bridgeimages/pic30.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_a4e9ca88d764429d81672feb763da2e7.setContent(html_f616ecc52e3841058a401f408eae1fc2);
+        
+
+        marker_9f5a90a1ef2542798790d1521a90485f.bindPopup(popup_a4e9ca88d764429d81672feb763da2e7)
+        ;
+
+        
+    
+    
+            var marker_0bf1056d85a745b8b86cd6000943fbc3 = L.marker(
+                [42.3730194, -71.2325528],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_a17e3c2a7727416a80917bb3ffc2d4cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0bf1056d85a745b8b86cd6000943fbc3.setIcon(icon_a17e3c2a7727416a80917bb3ffc2d4cb);
+        
+    
+        var popup_33908fe49827480e947572e7595ed751 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_caae25fefe7a4176b380d480b11bd0e9 = $(`<div id="html_caae25fefe7a4176b380d480b11bd0e9" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Elm Street Bridge</strong><br><img src= "bridgeimages/pic31.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_33908fe49827480e947572e7595ed751.setContent(html_caae25fefe7a4176b380d480b11bd0e9);
+        
+
+        marker_0bf1056d85a745b8b86cd6000943fbc3.bindPopup(popup_33908fe49827480e947572e7595ed751)
+        ;
+
+        
+    
+    
+            var marker_945223c35d5f49268438d27d58b8b0ee = L.marker(
+                [42.3728361, -71.2330889],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_fd60ada6ba5248a4b8cef86b4aff8234 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_945223c35d5f49268438d27d58b8b0ee.setIcon(icon_fd60ada6ba5248a4b8cef86b4aff8234);
+        
+    
+        var popup_f25e1fcebd6d4fceb30477a7523e5c00 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_d1e436cf5a984db7ad296235710e54b9 = $(`<div id="html_d1e436cf5a984db7ad296235710e54b9" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Boston & Maine Railroad trestle (abandoned)</strong><br></div>`)[0];
+            popup_f25e1fcebd6d4fceb30477a7523e5c00.setContent(html_d1e436cf5a984db7ad296235710e54b9);
+        
+
+        marker_945223c35d5f49268438d27d58b8b0ee.bindPopup(popup_f25e1fcebd6d4fceb30477a7523e5c00)
+        ;
+
+        
+    
+    
+            var marker_0c6abcaf15ef4b859608a1f4ea64e856 = L.marker(
+                [42.3723861, -71.2349861],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_3493d6754004488c98176e73674dcd00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0c6abcaf15ef4b859608a1f4ea64e856.setIcon(icon_3493d6754004488c98176e73674dcd00);
+        
+    
+        var popup_70d0d961153d4cf2bda547f99a127e4c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_ac4c3efdbd0849559cbb941c38e0ad43 = $(`<div id="html_ac4c3efdbd0849559cbb941c38e0ad43" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Richard Landry Park footbridge</strong><br><img src= "bridgeimages/pic33.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_70d0d961153d4cf2bda547f99a127e4c.setContent(html_ac4c3efdbd0849559cbb941c38e0ad43);
+        
+
+        marker_0c6abcaf15ef4b859608a1f4ea64e856.bindPopup(popup_70d0d961153d4cf2bda547f99a127e4c)
+        ;
+
+        
+    
+    
+            var marker_89f86d37726c4442ae951062bfb8e27c = L.marker(
+                [42.3730194, -71.2361778],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_4bad82da55ae427e856266895a0dd7cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_89f86d37726c4442ae951062bfb8e27c.setIcon(icon_4bad82da55ae427e856266895a0dd7cf);
+        
+    
+        var popup_be8ac88304ae4c338d9c20b5ea9d5f17 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_76e0d810937c4f7e8b77546b660d1806 = $(`<div id="html_76e0d810937c4f7e8b77546b660d1806" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Waltham Dam or Moody Street Dam</strong><br></div>`)[0];
+            popup_be8ac88304ae4c338d9c20b5ea9d5f17.setContent(html_76e0d810937c4f7e8b77546b660d1806);
+        
+
+        marker_89f86d37726c4442ae951062bfb8e27c.bindPopup(popup_be8ac88304ae4c338d9c20b5ea9d5f17)
+        ;
+
+        
+    
+    
+            var marker_19031e1dedb84952ab81f150f3a76bc2 = L.marker(
+                [42.373225, -71.2365639],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_a10f09300b1f46a48811e6ba33469d34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19031e1dedb84952ab81f150f3a76bc2.setIcon(icon_a10f09300b1f46a48811e6ba33469d34);
+        
+    
+        var popup_3326d6ec95d347509b1437f2327c1c8e = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f5024743bffa400a8780c37479660c48 = $(`<div id="html_f5024743bffa400a8780c37479660c48" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Moody Street bridge</strong><br><img src= "bridgeimages/pic35.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_3326d6ec95d347509b1437f2327c1c8e.setContent(html_f5024743bffa400a8780c37479660c48);
+        
+
+        marker_19031e1dedb84952ab81f150f3a76bc2.bindPopup(popup_3326d6ec95d347509b1437f2327c1c8e)
+        ;
+
+        
+    
+    
+            var marker_83d120df9a954bb6abfe2542b468d3ab = L.marker(
+                [42.3688639, -71.2435917],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_b0991f14f907430e9a3056f5b3d117e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83d120df9a954bb6abfe2542b468d3ab.setIcon(icon_b0991f14f907430e9a3056f5b3d117e7);
+        
+    
+        var popup_afcccc82f40343528465d4a87208b845 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_5fb4c2abf9e546fbba8cbf031b817adc = $(`<div id="html_5fb4c2abf9e546fbba8cbf031b817adc" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Gold Star Mothers Bridge</strong><br><img src= "bridgeimages/pic36.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_afcccc82f40343528465d4a87208b845.setContent(html_5fb4c2abf9e546fbba8cbf031b817adc);
+        
+
+        marker_83d120df9a954bb6abfe2542b468d3ab.bindPopup(popup_afcccc82f40343528465d4a87208b845)
+        ;
+
+        
+    
+    
+            var marker_e0db6c4b02db409ea57ce97854c0b72d = L.marker(
+                [42.3439639, -71.2613917],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_75bdf7f2dece455ead553e9a3a60149b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e0db6c4b02db409ea57ce97854c0b72d.setIcon(icon_75bdf7f2dece455ead553e9a3a60149b);
+        
+    
+        var popup_66535aa69be24c7f8a44ee0d27d3df9d = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_c165867534a04e5cbc1575cb18dcc195 = $(`<div id="html_c165867534a04e5cbc1575cb18dcc195" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Commonwealth Avenue/South Avenue Bridge</strong><br></div>`)[0];
+            popup_66535aa69be24c7f8a44ee0d27d3df9d.setContent(html_c165867534a04e5cbc1575cb18dcc195);
+        
+
+        marker_e0db6c4b02db409ea57ce97854c0b72d.bindPopup(popup_66535aa69be24c7f8a44ee0d27d3df9d)
+        ;
+
+        
+    
+    
+            var marker_40661dd682f04eb4af3eada9cbfc1471 = L.marker(
+                [42.3416, -71.2618083],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_1838a50a5b6a4a75b7d0df215582d9b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_40661dd682f04eb4af3eada9cbfc1471.setIcon(icon_1838a50a5b6a4a75b7d0df215582d9b9);
+        
+    
+        var popup_46206d0eb06f4c959d2d2d0a083cd3cc = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_07556e71f8ab4400abe0557bf23889fc = $(`<div id="html_07556e71f8ab4400abe0557bf23889fc" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">I-90/I-95 connector</strong><br></div>`)[0];
+            popup_46206d0eb06f4c959d2d2d0a083cd3cc.setContent(html_07556e71f8ab4400abe0557bf23889fc);
+        
+
+        marker_40661dd682f04eb4af3eada9cbfc1471.bindPopup(popup_46206d0eb06f4c959d2d2d0a083cd3cc)
+        ;
+
+        
+    
+    
+            var marker_e8214a98d2f6477daf757faadc9869f7 = L.marker(
+                [42.3409806, -71.26095],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_7186edffa6c049eb91b5a3d60b7a5221 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e8214a98d2f6477daf757faadc9869f7.setIcon(icon_7186edffa6c049eb91b5a3d60b7a5221);
+        
+    
+        var popup_1686dca36b3041bd8c8e061698b85733 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_7a13c8afcf2e4c29af7664b4c0fadd14 = $(`<div id="html_7a13c8afcf2e4c29af7664b4c0fadd14" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Massachusetts Turnpike Boston Extension (Interstate 90)</strong><br></div>`)[0];
+            popup_1686dca36b3041bd8c8e061698b85733.setContent(html_7a13c8afcf2e4c29af7664b4c0fadd14);
+        
+
+        marker_e8214a98d2f6477daf757faadc9869f7.bindPopup(popup_1686dca36b3041bd8c8e061698b85733)
+        ;
+
+        
+    
+    
+            var marker_396f99d9f26842f5bdfd1c926b5b2af3 = L.marker(
+                [42.3410056, -71.2597167],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_e51d0d78700f471ca1d401622c670893 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_396f99d9f26842f5bdfd1c926b5b2af3.setIcon(icon_e51d0d78700f471ca1d401622c670893);
+        
+    
+        var popup_2607d2d93fb24628a65d30ee0c303fc2 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_34246c2d4cf84ad684711aa6ef1a875b = $(`<div id="html_34246c2d4cf84ad684711aa6ef1a875b" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">I-90/I-95 connector</strong><br></div>`)[0];
+            popup_2607d2d93fb24628a65d30ee0c303fc2.setContent(html_34246c2d4cf84ad684711aa6ef1a875b);
+        
+
+        marker_396f99d9f26842f5bdfd1c926b5b2af3.bindPopup(popup_2607d2d93fb24628a65d30ee0c303fc2)
+        ;
+
+        
+    
+    
+            var marker_e780531b142a45769e0261981e7dcbd4 = L.marker(
+                [42.3412111, -71.2582583],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_fb20738bff20406d922fe2ae360572f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e780531b142a45769e0261981e7dcbd4.setIcon(icon_fb20738bff20406d922fe2ae360572f2);
+        
+    
+        var popup_08130cb55f2742b69eed4170b98faad8 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_d049e2982d7140239a162d522c17762a = $(`<div id="html_d049e2982d7140239a162d522c17762a" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Footbridge from Riverside Rd., Newton to Recreation Rd., Weston</strong><br></div>`)[0];
+            popup_08130cb55f2742b69eed4170b98faad8.setContent(html_d049e2982d7140239a162d522c17762a);
+        
+
+        marker_e780531b142a45769e0261981e7dcbd4.bindPopup(popup_08130cb55f2742b69eed4170b98faad8)
+        ;
+
+        
+    
+    
+            var marker_c40dbf67c40a49a0b4f0961a2e43800d = L.marker(
+                [42.3412111, -71.2582583],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_845dacc8201b416dbc4bb0cb5a3eeec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c40dbf67c40a49a0b4f0961a2e43800d.setIcon(icon_845dacc8201b416dbc4bb0cb5a3eeec4);
+        
+    
+        var popup_7c32ea60eb964867bc493e3a99eea6c4 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_af956ee3afb4414ca25c0ed992c64ff0 = $(`<div id="html_af956ee3afb4414ca25c0ed992c64ff0" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Road bridge from Riverside Rd., Newton to Recreation Rd., Weston</strong><br><img src= "bridgeimages/pic42.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_7c32ea60eb964867bc493e3a99eea6c4.setContent(html_af956ee3afb4414ca25c0ed992c64ff0);
+        
+
+        marker_c40dbf67c40a49a0b4f0961a2e43800d.bindPopup(popup_7c32ea60eb964867bc493e3a99eea6c4)
+        ;
+
+        
+    
+    
+            var marker_199c262932de4857b3101a30c51d3465 = L.marker(
+                [42.3406806, -71.2570667],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_3f77eb13dec5465c97ec825dd5f45079 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_199c262932de4857b3101a30c51d3465.setIcon(icon_3f77eb13dec5465c97ec825dd5f45079);
+        
+    
+        var popup_926155adca374f59937cd1c6917bbaca = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_02c0cfa3d94249f385f12ab9f2b9ec67 = $(`<div id="html_02c0cfa3d94249f385f12ab9f2b9ec67" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">CSX/MBTA railroad bridge</strong><br></div>`)[0];
+            popup_926155adca374f59937cd1c6917bbaca.setContent(html_02c0cfa3d94249f385f12ab9f2b9ec67);
+        
+
+        marker_199c262932de4857b3101a30c51d3465.bindPopup(popup_926155adca374f59937cd1c6917bbaca)
+        ;
+
+        
+    
+    
+            var marker_d09975437ebd413bb9e48b79c65850a9 = L.marker(
+                [42.3400444, -71.2559417],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_9851275131cb4721b4b0272139eec9a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d09975437ebd413bb9e48b79c65850a9.setIcon(icon_9851275131cb4721b4b0272139eec9a3);
+        
+    
+        var popup_979dc07a253e4d38bb7ef94b46ab2e3b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_2922d5bc01d940719d455f5f09f5d575 = $(`<div id="html_2922d5bc01d940719d455f5f09f5d575" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Riverside Park Footbridge</strong><br><img src= "bridgeimages/pic44.jpg" style = "width: 100%;height: 100%;"/></div>`)[0];
+            popup_979dc07a253e4d38bb7ef94b46ab2e3b.setContent(html_2922d5bc01d940719d455f5f09f5d575);
+        
+
+        marker_d09975437ebd413bb9e48b79c65850a9.bindPopup(popup_979dc07a253e4d38bb7ef94b46ab2e3b)
+        ;
+
+        
+    
+    
+            var marker_03a6292ef90c41a188cadb4892733a7a = L.marker(
+                [42.33762944, -71.2573778],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_32d462f818a24d0286ba946e6d5f921d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_03a6292ef90c41a188cadb4892733a7a.setIcon(icon_32d462f818a24d0286ba946e6d5f921d);
+        
+    
+        var popup_5a4e3ef428774d01b2941d91a1a9e462 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_a126d52f9fa04e0e87f1f081caacf310 = $(`<div id="html_a126d52f9fa04e0e87f1f081caacf310" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">I-95 offramp</strong><br></div>`)[0];
+            popup_5a4e3ef428774d01b2941d91a1a9e462.setContent(html_a126d52f9fa04e0e87f1f081caacf310);
+        
+
+        marker_03a6292ef90c41a188cadb4892733a7a.bindPopup(popup_5a4e3ef428774d01b2941d91a1a9e462)
+        ;
+
+        
+    
+    
+            var marker_b63ac0633d264a32a1477f4513428d8b = L.marker(
+                [42.3366194, -71.2586222],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_1a2699ef8c1042a695276290a1a8254f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b63ac0633d264a32a1477f4513428d8b.setIcon(icon_1a2699ef8c1042a695276290a1a8254f);
+        
+    
+        var popup_74201038db3046489db9a47d21748db9 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_78439e4c4e474393b133f6c57f148b74 = $(`<div id="html_78439e4c4e474393b133f6c57f148b74" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">I‑95 / Route 128</strong><br></div>`)[0];
+            popup_74201038db3046489db9a47d21748db9.setContent(html_78439e4c4e474393b133f6c57f148b74);
+        
+
+        marker_b63ac0633d264a32a1477f4513428d8b.bindPopup(popup_74201038db3046489db9a47d21748db9)
+        ;
+
+        
+    
+    
+            var marker_97b423b49ad545fe927cd87c8b54cfc1 = L.marker(
+                [42.3305667, -71.267925],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_dd766e7d6645476fbe1a6d2c4f4b5adb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97b423b49ad545fe927cd87c8b54cfc1.setIcon(icon_dd766e7d6645476fbe1a6d2c4f4b5adb);
+        
+    
+        var popup_e37f5b722cbb441e97b8fd5b51868e95 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_bd368c5c93484728bf1f6ef1e427e3b8 = $(`<div id="html_bd368c5c93484728bf1f6ef1e427e3b8" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Concord Street/Park Road bridge</strong><br></div>`)[0];
+            popup_e37f5b722cbb441e97b8fd5b51868e95.setContent(html_bd368c5c93484728bf1f6ef1e427e3b8);
+        
+
+        marker_97b423b49ad545fe927cd87c8b54cfc1.bindPopup(popup_e37f5b722cbb441e97b8fd5b51868e95)
+        ;
+
+        
+    
+    
+            var marker_fdbe1acb019b4b298ab0c4c1b7e7afff = L.marker(
+                [42.3283778, -71.2700806],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_e65bae3c99c44cf3b06cc07cd81ae691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fdbe1acb019b4b298ab0c4c1b7e7afff.setIcon(icon_e65bae3c99c44cf3b06cc07cd81ae691);
+        
+    
+        var popup_f786f62232004d9e86e88301596b57dc = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_1e9d3a8e6ea9414d9a2bd3a114b0612b = $(`<div id="html_1e9d3a8e6ea9414d9a2bd3a114b0612b" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Leo J. Martin Golf Club Footbridge</strong><br></div>`)[0];
+            popup_f786f62232004d9e86e88301596b57dc.setContent(html_1e9d3a8e6ea9414d9a2bd3a114b0612b);
+        
+
+        marker_fdbe1acb019b4b298ab0c4c1b7e7afff.bindPopup(popup_f786f62232004d9e86e88301596b57dc)
+        ;
+
+        
+    
+    
+            var marker_dd42ee8e9cf3440e9fa21647b9c895ec = L.marker(
+                [42.3267611, -71.2612722],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_a24243ec9fff4727a983ca0b77ab24c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd42ee8e9cf3440e9fa21647b9c895ec.setIcon(icon_a24243ec9fff4727a983ca0b77ab24c9);
+        
+    
+        var popup_cdf5fa02f08b43e0b43c008ca1d59c27 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_1cfd3eb12cf84e3089ac46a65b531818 = $(`<div id="html_1cfd3eb12cf84e3089ac46a65b531818" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Newton–Wellesley Lower Falls Pedestrian and Bicycle Bridge</strong><br></div>`)[0];
+            popup_cdf5fa02f08b43e0b43c008ca1d59c27.setContent(html_1cfd3eb12cf84e3089ac46a65b531818);
+        
+
+        marker_dd42ee8e9cf3440e9fa21647b9c895ec.bindPopup(popup_cdf5fa02f08b43e0b43c008ca1d59c27)
+        ;
+
+        
+    
+    
+            var marker_c9032845aada4fb8bcd7a6c84a9047e1 = L.marker(
+                [42.3253194, -71.2583528],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_e099fcbc799a4dce95f3e33572c76952 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c9032845aada4fb8bcd7a6c84a9047e1.setIcon(icon_e099fcbc799a4dce95f3e33572c76952);
+        
+    
+        var popup_96529ce413474f6c96c8fedc9710a0e7 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_b6159eb77b494caaa3ab062052b8aedc = $(`<div id="html_b6159eb77b494caaa3ab062052b8aedc" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Washington Street Bridge</strong><br></div>`)[0];
+            popup_96529ce413474f6c96c8fedc9710a0e7.setContent(html_b6159eb77b494caaa3ab062052b8aedc);
+        
+
+        marker_c9032845aada4fb8bcd7a6c84a9047e1.bindPopup(popup_96529ce413474f6c96c8fedc9710a0e7)
+        ;
+
+        
+    
+    
+            var marker_68c74a44e4cb44568361593aa55b1a4a = L.marker(
+                [42.3254833, -71.2543833],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_0d8759c7a22e470783edeb8a26c5ecdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_68c74a44e4cb44568361593aa55b1a4a.setIcon(icon_0d8759c7a22e470783edeb8a26c5ecdd);
+        
+    
+        var popup_cec827de02fe4b3d8e6cb69000af89e7 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_2eadd600212a4214b189dd68e9e6eeb2 = $(`<div id="html_2eadd600212a4214b189dd68e9e6eeb2" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Finlay Dam</strong><br></div>`)[0];
+            popup_cec827de02fe4b3d8e6cb69000af89e7.setContent(html_2eadd600212a4214b189dd68e9e6eeb2);
+        
+
+        marker_68c74a44e4cb44568361593aa55b1a4a.bindPopup(popup_cec827de02fe4b3d8e6cb69000af89e7)
+        ;
+
+        
+    
+    
+            var marker_8343f8faef4c4b3e816a25d9fc593713 = L.marker(
+                [42.325444, -71.254389],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_0782f47698fb4b74856a2d7bf9236436 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8343f8faef4c4b3e816a25d9fc593713.setIcon(icon_0782f47698fb4b74856a2d7bf9236436);
+        
+    
+        var popup_e796038041324726beb8403ba12794c8 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_573c8037a7784622a2b368fe7fb90507 = $(`<div id="html_573c8037a7784622a2b368fe7fb90507" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Cordingly Dam and Falls</strong><br></div>`)[0];
+            popup_e796038041324726beb8403ba12794c8.setContent(html_573c8037a7784622a2b368fe7fb90507);
+        
+
+        marker_8343f8faef4c4b3e816a25d9fc593713.bindPopup(popup_e796038041324726beb8403ba12794c8)
+        ;
+
+        
+    
+    
+            var marker_8420e429f45243c09e7bd1d9493a8a06 = L.marker(
+                [42.32583, -71.25444],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_d43c35e1f67f45929c01b601d7d5e9db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8420e429f45243c09e7bd1d9493a8a06.setIcon(icon_d43c35e1f67f45929c01b601d7d5e9db);
+        
+    
+        var popup_738f967c26074cbe86c14d39dd5c6c3a = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_c6a3a0fc77e8426db2c63c4ca0a493b4 = $(`<div id="html_c6a3a0fc77e8426db2c63c4ca0a493b4" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Mary Hunnewell Fyffe Footbridge</strong><br></div>`)[0];
+            popup_738f967c26074cbe86c14d39dd5c6c3a.setContent(html_c6a3a0fc77e8426db2c63c4ca0a493b4);
+        
+
+        marker_8420e429f45243c09e7bd1d9493a8a06.bindPopup(popup_738f967c26074cbe86c14d39dd5c6c3a)
+        ;
+
+        
+    
+    
+            var marker_29336b3d36114fbea62d4ce88826cf0d = L.marker(
+                [42.326775, -71.2531722],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_2e19848bfd5949359fe69262f3e69e9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_29336b3d36114fbea62d4ce88826cf0d.setIcon(icon_2e19848bfd5949359fe69262f3e69e9c);
+        
+    
+        var popup_864dcac2608b4040a5a381ce395afcbf = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_23e07769bdf74310be8d22bb35c7311a = $(`<div id="html_23e07769bdf74310be8d22bb35c7311a" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Wales Street/Walnut Street Bridge</strong><br></div>`)[0];
+            popup_864dcac2608b4040a5a381ce395afcbf.setContent(html_23e07769bdf74310be8d22bb35c7311a);
+        
+
+        marker_29336b3d36114fbea62d4ce88826cf0d.bindPopup(popup_864dcac2608b4040a5a381ce395afcbf)
+        ;
+
+        
+    
+    
+            var marker_54e70a2dde904ee4b97707234c063768 = L.marker(
+                [42.3243, -71.2499861],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_550ab4891f934bd0b96077390e5d4ef7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54e70a2dde904ee4b97707234c063768.setIcon(icon_550ab4891f934bd0b96077390e5d4ef7);
+        
+    
+        var popup_57023eb5b5624ad1a82436aa3cddd49b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_6e90da961a1d409ea411fe1de97a1090 = $(`<div id="html_6e90da961a1d409ea411fe1de97a1090" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Cochituate Aqueduct</strong><br></div>`)[0];
+            popup_57023eb5b5624ad1a82436aa3cddd49b.setContent(html_6e90da961a1d409ea411fe1de97a1090);
+        
+
+        marker_54e70a2dde904ee4b97707234c063768.bindPopup(popup_57023eb5b5624ad1a82436aa3cddd49b)
+        ;
+
+        
+    
+    
+            var marker_33a7e1674cfc4803b1896be0a20c9836 = L.marker(
+                [42.3236361, -71.2492667],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_ed2d2c0109f041faa3c0d2a4fd007988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_33a7e1674cfc4803b1896be0a20c9836.setIcon(icon_ed2d2c0109f041faa3c0d2a4fd007988);
+        
+    
+        var popup_3cf411f06c214f23a7dd30ad2a41f29b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_fb3d4938c0264f70aa15de71ede2e7f0 = $(`<div id="html_fb3d4938c0264f70aa15de71ede2e7f0" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">I‑95 / Route 128</strong><br></div>`)[0];
+            popup_3cf411f06c214f23a7dd30ad2a41f29b.setContent(html_fb3d4938c0264f70aa15de71ede2e7f0);
+        
+
+        marker_33a7e1674cfc4803b1896be0a20c9836.bindPopup(popup_3cf411f06c214f23a7dd30ad2a41f29b)
+        ;
+
+        
+    
+    
+            var marker_d5b99d61a17f41a584616075513cdfb2 = L.marker(
+                [42.316806, -71.228111],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_266c4aabdc354434b58bb67540c8f3a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5b99d61a17f41a584616075513cdfb2.setIcon(icon_266c4aabdc354434b58bb67540c8f3a0);
+        
+    
+        var popup_610077157ad84b9abf6c8960c3eec4bc = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_6f3ad42e24eb4ce2ba6143c33d9afde8 = $(`<div id="html_6f3ad42e24eb4ce2ba6143c33d9afde8" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Boston-Worcester Turnpike Bridge</strong><br></div>`)[0];
+            popup_610077157ad84b9abf6c8960c3eec4bc.setContent(html_6f3ad42e24eb4ce2ba6143c33d9afde8);
+        
+
+        marker_d5b99d61a17f41a584616075513cdfb2.bindPopup(popup_610077157ad84b9abf6c8960c3eec4bc)
+        ;
+
+        
+    
+    
+            var marker_c1fdddd91112406f98ae28951376602c = L.marker(
+                [42.316556, -71.228083],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_2d27bb283a504559bea78092877f6aaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1fdddd91112406f98ae28951376602c.setIcon(icon_2d27bb283a504559bea78092877f6aaa);
+        
+    
+        var popup_9614de9cb40b4deb8dcf33d264f04920 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_530155a3b64a40989a5d2d30e51ed782 = $(`<div id="html_530155a3b64a40989a5d2d30e51ed782" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Metropolitan Circular Dam</strong><br></div>`)[0];
+            popup_9614de9cb40b4deb8dcf33d264f04920.setContent(html_530155a3b64a40989a5d2d30e51ed782);
+        
+
+        marker_c1fdddd91112406f98ae28951376602c.bindPopup(popup_9614de9cb40b4deb8dcf33d264f04920)
+        ;
+
+        
+    
+    
+            var marker_40f584518de3498286d2eba35ccea494 = L.marker(
+                [42.3147583, -71.2269917],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f2585cf5e02349c99dbb057eeb97b18a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_40f584518de3498286d2eba35ccea494.setIcon(icon_f2585cf5e02349c99dbb057eeb97b18a);
+        
+    
+        var popup_9835f0d562cc4eed957067575ecef083 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_6d005a6129304bdea1fe1ee3efafb377 = $(`<div id="html_6d005a6129304bdea1fe1ee3efafb377" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Echo Bridge</strong><br></div>`)[0];
+            popup_9835f0d562cc4eed957067575ecef083.setContent(html_6d005a6129304bdea1fe1ee3efafb377);
+        
+
+        marker_40f584518de3498286d2eba35ccea494.bindPopup(popup_9835f0d562cc4eed957067575ecef083)
+        ;
+
+        
+    
+    
+            var marker_671fd3e827d04a819e9c96bb4b278bbf = L.marker(
+                [42.3138222, -71.2263389],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_01a75ca2b89c452eacd724bb0b56f7f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_671fd3e827d04a819e9c96bb4b278bbf.setIcon(icon_01a75ca2b89c452eacd724bb0b56f7f4);
+        
+    
+        var popup_a06307e48dee45bb94b3c04b93fd57ab = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_8fe5c9610bea49879759d509a4de40b4 = $(`<div id="html_8fe5c9610bea49879759d509a4de40b4" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Silk Mill Dam</strong><br></div>`)[0];
+            popup_a06307e48dee45bb94b3c04b93fd57ab.setContent(html_8fe5c9610bea49879759d509a4de40b4);
+        
+
+        marker_671fd3e827d04a819e9c96bb4b278bbf.bindPopup(popup_a06307e48dee45bb94b3c04b93fd57ab)
+        ;
+
+        
+    
+    
+            var marker_dc3cbb2dab844ce6b6f41c7f97d0ebd6 = L.marker(
+                [42.3123056, -71.2270472],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_0489163ce1d943b4837fb54a17489ae4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dc3cbb2dab844ce6b6f41c7f97d0ebd6.setIcon(icon_0489163ce1d943b4837fb54a17489ae4);
+        
+    
+        var popup_7d5d73a5c7aa49848839c8036f0b79a7 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_c12b014d12cc47fbb81db7a830935098 = $(`<div id="html_c12b014d12cc47fbb81db7a830935098" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Elliot Street/Central Avenue Bridge</strong><br></div>`)[0];
+            popup_7d5d73a5c7aa49848839c8036f0b79a7.setContent(html_c12b014d12cc47fbb81db7a830935098);
+        
+
+        marker_dc3cbb2dab844ce6b6f41c7f97d0ebd6.bindPopup(popup_7d5d73a5c7aa49848839c8036f0b79a7)
+        ;
+
+        
+    
+    
+            var marker_f0788ae3f11642fda9d0fd8174e57ff1 = L.marker(
+                [42.3072444, -71.2239778],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_352392e0577043818b804db8f2ce1612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f0788ae3f11642fda9d0fd8174e57ff1.setIcon(icon_352392e0577043818b804db8f2ce1612);
+        
+    
+        var popup_afcc631b36014a87880b5c9f8675e805 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_90632ad0348941198431b1a0c6750352 = $(`<div id="html_90632ad0348941198431b1a0c6750352" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_afcc631b36014a87880b5c9f8675e805.setContent(html_90632ad0348941198431b1a0c6750352);
+        
+
+        marker_f0788ae3f11642fda9d0fd8174e57ff1.bindPopup(popup_afcc631b36014a87880b5c9f8675e805)
+        ;
+
+        
+    
+    
+            var marker_ca5c63804eec4a0c98d426e736fe0605 = L.marker(
+                [42.3065306, -71.21695],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_c19c662472704b27a68a62665d25d4a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca5c63804eec4a0c98d426e736fe0605.setIcon(icon_c19c662472704b27a68a62665d25d4a5);
+        
+    
+        var popup_66875e0787614ea0bae80f86f9bc3e5a = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f5351150baf74e93aeb0f201501dfb92 = $(`<div id="html_f5351150baf74e93aeb0f201501dfb92" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Needham Street Bridge</strong><br></div>`)[0];
+            popup_66875e0787614ea0bae80f86f9bc3e5a.setContent(html_f5351150baf74e93aeb0f201501dfb92);
+        
+
+        marker_ca5c63804eec4a0c98d426e736fe0605.bindPopup(popup_66875e0787614ea0bae80f86f9bc3e5a)
+        ;
+
+        
+    
+    
+            var marker_a0ab479a271e4f2cbd13ed741d737cdb = L.marker(
+                [42.3060139, -71.2129806],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_816fe03b79154f7fb74ff18d718113b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0ab479a271e4f2cbd13ed741d737cdb.setIcon(icon_816fe03b79154f7fb74ff18d718113b5);
+        
+    
+        var popup_b3f6a0f3e9a0438eb917fc16a664b08c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_93b586dedb474547b866218d4c84b7fa = $(`<div id="html_93b586dedb474547b866218d4c84b7fa" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_b3f6a0f3e9a0438eb917fc16a664b08c.setContent(html_93b586dedb474547b866218d4c84b7fa);
+        
+
+        marker_a0ab479a271e4f2cbd13ed741d737cdb.bindPopup(popup_b3f6a0f3e9a0438eb917fc16a664b08c)
+        ;
+
+        
+    
+    
+            var marker_6c7dfd05660f44f28247bf7f11816c1c = L.marker(
+                [42.2971028, -71.2078111],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_3fc98146f80847d399110a4d9758e49c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c7dfd05660f44f28247bf7f11816c1c.setIcon(icon_3fc98146f80847d399110a4d9758e49c);
+        
+    
+        var popup_23252207fbbc4ebaa2953b687f4df5b4 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_8fa4244c03b4486888079728c78b7f0c = $(`<div id="html_8fa4244c03b4486888079728c78b7f0c" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Kendrick Street/Nahanton Street Bridge</strong><br></div>`)[0];
+            popup_23252207fbbc4ebaa2953b687f4df5b4.setContent(html_8fa4244c03b4486888079728c78b7f0c);
+        
+
+        marker_6c7dfd05660f44f28247bf7f11816c1c.bindPopup(popup_23252207fbbc4ebaa2953b687f4df5b4)
+        ;
+
+        
+    
+    
+            var marker_aa1db96a362e40128307a2f6eb8f1e68 = L.marker(
+                [42.2794917, -71.1852472],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_68ded326e6674805a17fb05c374df5f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa1db96a362e40128307a2f6eb8f1e68.setIcon(icon_68ded326e6674805a17fb05c374df5f9);
+        
+    
+        var popup_8a75ba9a1f80438b846ab41b9eb1fe0e = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9fdccd1ac43c4ffb835cae287d2062ea = $(`<div id="html_9fdccd1ac43c4ffb835cae287d2062ea" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">MBTA Commuter Rail Needham Line bridge</strong><br></div>`)[0];
+            popup_8a75ba9a1f80438b846ab41b9eb1fe0e.setContent(html_9fdccd1ac43c4ffb835cae287d2062ea);
+        
+
+        marker_aa1db96a362e40128307a2f6eb8f1e68.bindPopup(popup_8a75ba9a1f80438b846ab41b9eb1fe0e)
+        ;
+
+        
+    
+    
+            var marker_ec46feebe8ad4701aaaaf98b49c70a28 = L.marker(
+                [42.2708389, -71.1733056],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_75487d40c423426e8b232fc790c7242f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec46feebe8ad4701aaaaf98b49c70a28.setIcon(icon_75487d40c423426e8b232fc790c7242f);
+        
+    
+        var popup_9def2de18a8443e682d353ba315e8952 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9e01e70cf2ce499d9c03a7dad9d39eb7 = $(`<div id="html_9e01e70cf2ce499d9c03a7dad9d39eb7" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Honorable Robert L. Cawley Bridge</strong><br></div>`)[0];
+            popup_9def2de18a8443e682d353ba315e8952.setContent(html_9e01e70cf2ce499d9c03a7dad9d39eb7);
+        
+
+        marker_ec46feebe8ad4701aaaaf98b49c70a28.bindPopup(popup_9def2de18a8443e682d353ba315e8952)
+        ;
+
+        
+    
+    
+            var marker_1e0129359ab7459fb1609aa7988d88a5 = L.marker(
+                [42.2523917, -71.1762139],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_201b00db5e9c4318a08cd74df99d2c91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e0129359ab7459fb1609aa7988d88a5.setIcon(icon_201b00db5e9c4318a08cd74df99d2c91);
+        
+    
+        var popup_29ef60d27e214b1aa2c7f778737ee450 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_2db04fa00d784a82a04b7a85d614a910 = $(`<div id="html_2db04fa00d784a82a04b7a85d614a910" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Ames Street Bridge[a]</strong><br></div>`)[0];
+            popup_29ef60d27e214b1aa2c7f778737ee450.setContent(html_2db04fa00d784a82a04b7a85d614a910);
+        
+
+        marker_1e0129359ab7459fb1609aa7988d88a5.bindPopup(popup_29ef60d27e214b1aa2c7f778737ee450)
+        ;
+
+        
+    
+    
+            var marker_8bf262a6e6594e529289e42af5c39546 = L.marker(
+                [42.254125, -71.181],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_49b36c8eff1346a6bdf26040856220fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8bf262a6e6594e529289e42af5c39546.setIcon(icon_49b36c8eff1346a6bdf26040856220fd);
+        
+    
+        var popup_3308a4d8bc794e70aa5a65d04de6c995 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_dcc2c66175044466bc61378b9413fbab = $(`<div id="html_dcc2c66175044466bc61378b9413fbab" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Bridge Street Bridge</strong><br></div>`)[0];
+            popup_3308a4d8bc794e70aa5a65d04de6c995.setContent(html_dcc2c66175044466bc61378b9413fbab);
+        
+
+        marker_8bf262a6e6594e529289e42af5c39546.bindPopup(popup_3308a4d8bc794e70aa5a65d04de6c995)
+        ;
+
+        
+    
+    
+            var marker_8d2308219a8342319ce660511d0b35e8 = L.marker(
+                [42.2672111, -71.2028333],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_5dcc20c87ba44113a8350558641d9c5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8d2308219a8342319ce660511d0b35e8.setIcon(icon_5dcc20c87ba44113a8350558641d9c5e);
+        
+    
+        var popup_e99f4408993a463198a78f65bef7afc6 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9176351a36c34d84bfac47a7a48b5521 = $(`<div id="html_9176351a36c34d84bfac47a7a48b5521" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Interstate 95/Route 128</strong><br></div>`)[0];
+            popup_e99f4408993a463198a78f65bef7afc6.setContent(html_9176351a36c34d84bfac47a7a48b5521);
+        
+
+        marker_8d2308219a8342319ce660511d0b35e8.bindPopup(popup_e99f4408993a463198a78f65bef7afc6)
+        ;
+
+        
+    
+    
+            var marker_0f7045fbdca64686a181567ba50e9f1d = L.marker(
+                [42.2670361, -71.2048389],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_3e826c3d2aa445f1b252583dae6b41c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f7045fbdca64686a181567ba50e9f1d.setIcon(icon_3e826c3d2aa445f1b252583dae6b41c7);
+        
+    
+        var popup_088e676fdd3145d6af2153e7a413f912 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_93fe97d433da4dd4b96b52cf1971e686 = $(`<div id="html_93fe97d433da4dd4b96b52cf1971e686" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Greendale Avenue/Lyons Street Bridge</strong><br></div>`)[0];
+            popup_088e676fdd3145d6af2153e7a413f912.setContent(html_93fe97d433da4dd4b96b52cf1971e686);
+        
+
+        marker_0f7045fbdca64686a181567ba50e9f1d.bindPopup(popup_088e676fdd3145d6af2153e7a413f912)
+        ;
+
+        
+    
+    
+            var marker_e3a599f5bb4a44faab1f689c816c176b = L.marker(
+                [42.2676861, -71.218025],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_317e070cd9854f65af0c9fc27541e4a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e3a599f5bb4a44faab1f689c816c176b.setIcon(icon_317e070cd9854f65af0c9fc27541e4a4);
+        
+    
+        var popup_20713a14f785404b870eed846587d4cd = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_40c2a5d57fa54834a128676f7321bc1d = $(`<div id="html_40c2a5d57fa54834a128676f7321bc1d" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Route 135/West Street/Dedham Avenue Bridge</strong><br></div>`)[0];
+            popup_20713a14f785404b870eed846587d4cd.setContent(html_40c2a5d57fa54834a128676f7321bc1d);
+        
+
+        marker_e3a599f5bb4a44faab1f689c816c176b.bindPopup(popup_20713a14f785404b870eed846587d4cd)
+        ;
+
+        
+    
+    
+            var marker_72c7e5c162314cd4bbdc76659d7374e0 = L.marker(
+                [42.2598333, -71.2370778],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f3f7b06474814540847f1b85ec10b0ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_72c7e5c162314cd4bbdc76659d7374e0.setIcon(icon_f3f7b06474814540847f1b85ec10b0ef);
+        
+    
+        var popup_7cb6f3e1dfda4332961a1d0ef2e9bc12 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9e00297218b648a1839f8c61f90b0d5c = $(`<div id="html_9e00297218b648a1839f8c61f90b0d5c" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Chestnut Street Bridge</strong><br></div>`)[0];
+            popup_7cb6f3e1dfda4332961a1d0ef2e9bc12.setContent(html_9e00297218b648a1839f8c61f90b0d5c);
+        
+
+        marker_72c7e5c162314cd4bbdc76659d7374e0.bindPopup(popup_7cb6f3e1dfda4332961a1d0ef2e9bc12)
+        ;
+
+        
+    
+    
+            var marker_841bec57923c41f1961c2fee43bd8dba = L.marker(
+                [42.256306, -71.259667],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_fc62c24979434dadb2dfd1ff302e7e5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_841bec57923c41f1961c2fee43bd8dba.setIcon(icon_fc62c24979434dadb2dfd1ff302e7e5a);
+        
+    
+        var popup_11423937bc004efcbc990809ed5a9a6c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_4ba333f3c1414f85b26bba5fea2af2d7 = $(`<div id="html_4ba333f3c1414f85b26bba5fea2af2d7" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">dam</strong><br></div>`)[0];
+            popup_11423937bc004efcbc990809ed5a9a6c.setContent(html_4ba333f3c1414f85b26bba5fea2af2d7);
+        
+
+        marker_841bec57923c41f1961c2fee43bd8dba.bindPopup(popup_11423937bc004efcbc990809ed5a9a6c)
+        ;
+
+        
+    
+    
+            var marker_0a576e32fffc4c5889259f205405d801 = L.marker(
+                [42.25861, -71.263],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_48d0260ee72c4d0ea1715dac2425da38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a576e32fffc4c5889259f205405d801.setIcon(icon_48d0260ee72c4d0ea1715dac2425da38);
+        
+    
+        var popup_5bb15de8506a4c09b412a0a42767caa6 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_18541b6ee36c4a4cafce278a9a66e6fa = $(`<div id="html_18541b6ee36c4a4cafce278a9a66e6fa" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">dam</strong><br></div>`)[0];
+            popup_5bb15de8506a4c09b412a0a42767caa6.setContent(html_18541b6ee36c4a4cafce278a9a66e6fa);
+        
+
+        marker_0a576e32fffc4c5889259f205405d801.bindPopup(popup_5bb15de8506a4c09b412a0a42767caa6)
+        ;
+
+        
+    
+    
+            var marker_60caab14b3f04cdca4dcca80823a5278 = L.marker(
+                [42.2590722, -71.2631278],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_577cca25f90f47a99f087703e7a01c51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60caab14b3f04cdca4dcca80823a5278.setIcon(icon_577cca25f90f47a99f087703e7a01c51);
+        
+    
+        var popup_653fc010d9b44f44b4ac4c061b68bee9 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_6cbeb490332a47379cfcf43a7e803724 = $(`<div id="html_6cbeb490332a47379cfcf43a7e803724" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Willow Street/South Street Bridge</strong><br></div>`)[0];
+            popup_653fc010d9b44f44b4ac4c061b68bee9.setContent(html_6cbeb490332a47379cfcf43a7e803724);
+        
+
+        marker_60caab14b3f04cdca4dcca80823a5278.bindPopup(popup_653fc010d9b44f44b4ac4c061b68bee9)
+        ;
+
+        
+    
+    
+            var marker_aa4836640c594bcd85678f9196a55b0d = L.marker(
+                [42.2574917, -71.2706278],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f931887705bc48769fc6cce54b3f2a06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa4836640c594bcd85678f9196a55b0d.setIcon(icon_f931887705bc48769fc6cce54b3f2a06);
+        
+    
+        var popup_8202fbf60fc34cf0bc677594da21255d = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_204b02b5610d4c258e90f3651f7c674d = $(`<div id="html_204b02b5610d4c258e90f3651f7c674d" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_8202fbf60fc34cf0bc677594da21255d.setContent(html_204b02b5610d4c258e90f3651f7c674d);
+        
+
+        marker_aa4836640c594bcd85678f9196a55b0d.bindPopup(popup_8202fbf60fc34cf0bc677594da21255d)
+        ;
+
+        
+    
+    
+            var marker_325aff8f2dac4d91b2f629c0e93a96a7 = L.marker(
+                [42.2589917, -71.271475],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_1edb129b5e1e416ea5a88787de516490 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_325aff8f2dac4d91b2f629c0e93a96a7.setIcon(icon_1edb129b5e1e416ea5a88787de516490);
+        
+    
+        var popup_b6b9c281e1b1430c9239aef3fb93307c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_bf56682adfc5481c8125ae94a314e379 = $(`<div id="html_bf56682adfc5481c8125ae94a314e379" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Central Ave/Centre Street Bridge</strong><br></div>`)[0];
+            popup_b6b9c281e1b1430c9239aef3fb93307c.setContent(html_bf56682adfc5481c8125ae94a314e379);
+        
+
+        marker_325aff8f2dac4d91b2f629c0e93a96a7.bindPopup(popup_b6b9c281e1b1430c9239aef3fb93307c)
+        ;
+
+        
+    
+    
+            var marker_f81b036472ca4a46bbc3bb876cc03518 = L.marker(
+                [42.2633528, -71.284875],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_dd67f412c639457eb58c89c19b7110f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f81b036472ca4a46bbc3bb876cc03518.setIcon(icon_dd67f412c639457eb58c89c19b7110f4);
+        
+    
+        var popup_8681eb991d0246dcaf5ac32aa1266a80 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_0705654bdcb24f508c8abe99d5e0bfb4 = $(`<div id="html_0705654bdcb24f508c8abe99d5e0bfb4" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">missing bridge?</strong><br></div>`)[0];
+            popup_8681eb991d0246dcaf5ac32aa1266a80.setContent(html_0705654bdcb24f508c8abe99d5e0bfb4);
+        
+
+        marker_f81b036472ca4a46bbc3bb876cc03518.bindPopup(popup_8681eb991d0246dcaf5ac32aa1266a80)
+        ;
+
+        
+    
+    
+            var marker_5e5eea7615d24260bdaf3bc8569fb2de = L.marker(
+                [42.2693056, -71.2998417],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_edc3ef50d1c64f539963a517fe4b1173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e5eea7615d24260bdaf3bc8569fb2de.setIcon(icon_edc3ef50d1c64f539963a517fe4b1173);
+        
+    
+        var popup_f95f7d82b9de4c9eaf21ca8b6d4ec687 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_b8b7c5acc0ab4dbc9ded654b209a5855 = $(`<div id="html_b8b7c5acc0ab4dbc9ded654b209a5855" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Dover Road/Charles River Street Bridge</strong><br></div>`)[0];
+            popup_f95f7d82b9de4c9eaf21ca8b6d4ec687.setContent(html_b8b7c5acc0ab4dbc9ded654b209a5855);
+        
+
+        marker_5e5eea7615d24260bdaf3bc8569fb2de.bindPopup(popup_f95f7d82b9de4c9eaf21ca8b6d4ec687)
+        ;
+
+        
+    
+    
+            var marker_85fc09027601459ebcbb512edc2a0bba = L.marker(
+                [42.2757444, -71.30955],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_36939177f9b748eda1030a41a0ba1b34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85fc09027601459ebcbb512edc2a0bba.setIcon(icon_36939177f9b748eda1030a41a0ba1b34);
+        
+    
+        var popup_54ca10d1b23f4908a681fbf0b71c2650 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9354662f793b40b98cdcff842f1b19f0 = $(`<div id="html_9354662f793b40b98cdcff842f1b19f0" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Cheney Drive Bridge</strong><br></div>`)[0];
+            popup_54ca10d1b23f4908a681fbf0b71c2650.setContent(html_9354662f793b40b98cdcff842f1b19f0);
+        
+
+        marker_85fc09027601459ebcbb512edc2a0bba.bindPopup(popup_54ca10d1b23f4908a681fbf0b71c2650)
+        ;
+
+        
+    
+    
+            var marker_f1efb409484e41e4a9fe23365c291544 = L.marker(
+                [42.2705, -71.308694],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_5013cb44b64b419f867a46141cebcb30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f1efb409484e41e4a9fe23365c291544.setIcon(icon_5013cb44b64b419f867a46141cebcb30);
+        
+    
+        var popup_32d779a440d94dd28dc518db1588d04e = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_7cba3c09fa0c4e9ab85ab4678ca9227d = $(`<div id="html_7cba3c09fa0c4e9ab85ab4678ca9227d" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Water Street Bridge</strong><br></div>`)[0];
+            popup_32d779a440d94dd28dc518db1588d04e.setContent(html_7cba3c09fa0c4e9ab85ab4678ca9227d);
+        
+
+        marker_f1efb409484e41e4a9fe23365c291544.bindPopup(popup_32d779a440d94dd28dc518db1588d04e)
+        ;
+
+        
+    
+    
+            var marker_cb71db06055f4773814fb1cb1f52e207 = L.marker(
+                [42.2717028, -71.3151444],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f80501ef2b9543ffa49f44ddbb646e22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cb71db06055f4773814fb1cb1f52e207.setIcon(icon_f80501ef2b9543ffa49f44ddbb646e22);
+        
+    
+        var popup_408e120ab5184221aa25f56d6ece8272 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_99793e421e0d418196f7f3a1bd3495b0 = $(`<div id="html_99793e421e0d418196f7f3a1bd3495b0" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Pleasant Street Bridge</strong><br></div>`)[0];
+            popup_408e120ab5184221aa25f56d6ece8272.setContent(html_99793e421e0d418196f7f3a1bd3495b0);
+        
+
+        marker_cb71db06055f4773814fb1cb1f52e207.bindPopup(popup_408e120ab5184221aa25f56d6ece8272)
+        ;
+
+        
+    
+    
+            var marker_8cb60d43644645669df18894f916c23d = L.marker(
+                [42.2714639, -71.3157139],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f32f732c31cb4c78b37b82e6c847eab1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8cb60d43644645669df18894f916c23d.setIcon(icon_f32f732c31cb4c78b37b82e6c847eab1);
+        
+    
+        var popup_be42d40740d74a829194d2f1d199e7b3 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_d39e7d5194624d3c87e25e6d12e66bb0 = $(`<div id="html_d39e7d5194624d3c87e25e6d12e66bb0" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">South Natick Dam</strong><br></div>`)[0];
+            popup_be42d40740d74a829194d2f1d199e7b3.setContent(html_d39e7d5194624d3c87e25e6d12e66bb0);
+        
+
+        marker_8cb60d43644645669df18894f916c23d.bindPopup(popup_be42d40740d74a829194d2f1d199e7b3)
+        ;
+
+        
+    
+    
+            var marker_fb27f2b78ad640cab67f50223602658c = L.marker(
+                [42.26696, -71.32112],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_1110a9da42554b6389352116ff39c900 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fb27f2b78ad640cab67f50223602658c.setIcon(icon_1110a9da42554b6389352116ff39c900);
+        
+    
+        var popup_807f7926ba154671ad81594e820e8265 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_73fbbbc1aa474ffca213a8add20bf0a7 = $(`<div id="html_73fbbbc1aa474ffca213a8add20bf0a7" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Sargent Bridge</strong><br></div>`)[0];
+            popup_807f7926ba154671ad81594e820e8265.setContent(html_73fbbbc1aa474ffca213a8add20bf0a7);
+        
+
+        marker_fb27f2b78ad640cab67f50223602658c.bindPopup(popup_807f7926ba154671ad81594e820e8265)
+        ;
+
+        
+    
+    
+            var marker_9c2f6e1259c44e09aacd39651947c4e2 = L.marker(
+                [42.232625, -71.3301861],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_05d4a50f079942a794fa440a9da49b96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c2f6e1259c44e09aacd39651947c4e2.setIcon(icon_05d4a50f079942a794fa440a9da49b96);
+        
+    
+        var popup_247968a18eb642d0961109cec1679120 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_379fae1b6df144dfb46c64646824922e = $(`<div id="html_379fae1b6df144dfb46c64646824922e" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Farm Road/Bridge Street Bridge</strong><br></div>`)[0];
+            popup_247968a18eb642d0961109cec1679120.setContent(html_379fae1b6df144dfb46c64646824922e);
+        
+
+        marker_9c2f6e1259c44e09aacd39651947c4e2.bindPopup(popup_247968a18eb642d0961109cec1679120)
+        ;
+
+        
+    
+    
+            var marker_99a57d9848be448db5b6dfa75c15344c = L.marker(
+                [42.2148417, -71.348275],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f31f438b5ae7483b8c841a9165895f28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99a57d9848be448db5b6dfa75c15344c.setIcon(icon_f31f438b5ae7483b8c841a9165895f28);
+        
+    
+        var popup_39448ca40dc74a7596322686489783cb = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_fb590f2dfd0e40a6baf50c3d94b51635 = $(`<div id="html_fb590f2dfd0e40a6baf50c3d94b51635" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_39448ca40dc74a7596322686489783cb.setContent(html_fb590f2dfd0e40a6baf50c3d94b51635);
+        
+
+        marker_99a57d9848be448db5b6dfa75c15344c.bindPopup(popup_39448ca40dc74a7596322686489783cb)
+        ;
+
+        
+    
+    
+            var marker_6db853c61b1b4e82bbdd57cda5ae4549 = L.marker(
+                [42.2099944, -71.3517306],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_18a51c1dbe3d456190cbf91d9c1c7bd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6db853c61b1b4e82bbdd57cda5ae4549.setIcon(icon_18a51c1dbe3d456190cbf91d9c1c7bd7);
+        
+    
+        var popup_da06234e03ab48d0802ee3a3b549d29a = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_b937ea9e32894dc6929e1362a7c84f01 = $(`<div id="html_b937ea9e32894dc6929e1362a7c84f01" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">South Main Street/North Meadows Road Bridge</strong><br></div>`)[0];
+            popup_da06234e03ab48d0802ee3a3b549d29a.setContent(html_b937ea9e32894dc6929e1362a7c84f01);
+        
+
+        marker_6db853c61b1b4e82bbdd57cda5ae4549.bindPopup(popup_da06234e03ab48d0802ee3a3b549d29a)
+        ;
+
+        
+    
+    
+            var marker_2cb30aebf43d40bebd907113d980d132 = L.marker(
+                [42.2077778, -71.352],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_5357c48484144090aacda64b2ea7f369 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2cb30aebf43d40bebd907113d980d132.setIcon(icon_5357c48484144090aacda64b2ea7f369);
+        
+    
+        var popup_4979b5df1899446da99a2c0df1c07220 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_026a8d1fba374df4ae1193d0ac8bf643 = $(`<div id="html_026a8d1fba374df4ae1193d0ac8bf643" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">former bridge?</strong><br></div>`)[0];
+            popup_4979b5df1899446da99a2c0df1c07220.setContent(html_026a8d1fba374df4ae1193d0ac8bf643);
+        
+
+        marker_2cb30aebf43d40bebd907113d980d132.bindPopup(popup_4979b5df1899446da99a2c0df1c07220)
+        ;
+
+        
+    
+    
+            var marker_9e619d34ce4b4549a9696231605eeb5c = L.marker(
+                [42.1884389, -71.3343167],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f09bd1535c1c40b6ab792c7fa1276864 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e619d34ce4b4549a9696231605eeb5c.setIcon(icon_f09bd1535c1c40b6ab792c7fa1276864);
+        
+    
+        var popup_bd0c74499f5d48828d8553ed73f5b632 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_7b0ddb14e4af474d82e5a7d03031babd = $(`<div id="html_7b0ddb14e4af474d82e5a7d03031babd" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_bd0c74499f5d48828d8553ed73f5b632.setContent(html_7b0ddb14e4af474d82e5a7d03031babd);
+        
+
+        marker_9e619d34ce4b4549a9696231605eeb5c.bindPopup(popup_bd0c74499f5d48828d8553ed73f5b632)
+        ;
+
+        
+    
+    
+            var marker_6e1d3de4073d4f7cb81092a76c0014d1 = L.marker(
+                [42.188725, -71.3332667],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_9f78dae4074940af8356c6b1b0c2c95e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e1d3de4073d4f7cb81092a76c0014d1.setIcon(icon_9f78dae4074940af8356c6b1b0c2c95e);
+        
+    
+        var popup_40a23faa3bf94155a59f34f4554268a5 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_57ecd7ce15b541feb6afafc7aa9387ea = $(`<div id="html_57ecd7ce15b541feb6afafc7aa9387ea" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Dover Road Bridge</strong><br></div>`)[0];
+            popup_40a23faa3bf94155a59f34f4554268a5.setContent(html_57ecd7ce15b541feb6afafc7aa9387ea);
+        
+
+        marker_6e1d3de4073d4f7cb81092a76c0014d1.bindPopup(popup_40a23faa3bf94155a59f34f4554268a5)
+        ;
+
+        
+    
+    
+            var marker_1ba13bc312e741b9b98dc665df01a394 = L.marker(
+                [42.18111, -71.3226444],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_ceebe755f9c0436bb2b351ab087b3c55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1ba13bc312e741b9b98dc665df01a394.setIcon(icon_ceebe755f9c0436bb2b351ab087b3c55);
+        
+    
+        var popup_51ba6dbe37d74753aa6ee772aa62fde4 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f8afc70b71e249c687b4ff9339f16613 = $(`<div id="html_f8afc70b71e249c687b4ff9339f16613" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Turner Bridge (Main Street Bridge)</strong><br></div>`)[0];
+            popup_51ba6dbe37d74753aa6ee772aa62fde4.setContent(html_f8afc70b71e249c687b4ff9339f16613);
+        
+
+        marker_1ba13bc312e741b9b98dc665df01a394.bindPopup(popup_51ba6dbe37d74753aa6ee772aa62fde4)
+        ;
+
+        
+    
+    
+            var marker_da55baa9199f44bdad6e9b744dfd3121 = L.marker(
+                [42.173556, -71.323139],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_74a9eb9bc531466b9ae2aa7121257130 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_da55baa9199f44bdad6e9b744dfd3121.setIcon(icon_74a9eb9bc531466b9ae2aa7121257130);
+        
+    
+        var popup_dbad23fe35d44635bd573556e60eb96c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_fe7cd7f13c6a48fe832e49b6964d5276 = $(`<div id="html_fe7cd7f13c6a48fe832e49b6964d5276" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Dwight's Bridge</strong><br></div>`)[0];
+            popup_dbad23fe35d44635bd573556e60eb96c.setContent(html_fe7cd7f13c6a48fe832e49b6964d5276);
+        
+
+        marker_da55baa9199f44bdad6e9b744dfd3121.bindPopup(popup_dbad23fe35d44635bd573556e60eb96c)
+        ;
+
+        
+    
+    
+            var marker_40c98493f46a4a8b86e039e4db2e0e1d = L.marker(
+                [42.15785, -71.3320639],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_2a29a554089d41cabb5f66b77155a695 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_40c98493f46a4a8b86e039e4db2e0e1d.setIcon(icon_2a29a554089d41cabb5f66b77155a695);
+        
+    
+        var popup_35bd596af0694336a6a883828ecae76b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_bae75be9affc4d6287b4e258ef5c96f2 = $(`<div id="html_bae75be9affc4d6287b4e258ef5c96f2" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Forest Road/Orchard Street Bridge</strong><br></div>`)[0];
+            popup_35bd596af0694336a6a883828ecae76b.setContent(html_bae75be9affc4d6287b4e258ef5c96f2);
+        
+
+        marker_40c98493f46a4a8b86e039e4db2e0e1d.bindPopup(popup_35bd596af0694336a6a883828ecae76b)
+        ;
+
+        
+    
+    
+            var marker_2acbfa6774ff4c20b2b7d31f012c2cfe = L.marker(
+                [42.1432778, -71.3492833],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_c7d3e93588de42f09597e0c5aad1c6d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2acbfa6774ff4c20b2b7d31f012c2cfe.setIcon(icon_c7d3e93588de42f09597e0c5aad1c6d7);
+        
+    
+        var popup_2a54624c194047088a0b24236d5558c6 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_dd2dff5079834951a5c7bd05aff46e58 = $(`<div id="html_dd2dff5079834951a5c7bd05aff46e58" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Norfolk Road Bridge</strong><br></div>`)[0];
+            popup_2a54624c194047088a0b24236d5558c6.setContent(html_dd2dff5079834951a5c7bd05aff46e58);
+        
+
+        marker_2acbfa6774ff4c20b2b7d31f012c2cfe.bindPopup(popup_2a54624c194047088a0b24236d5558c6)
+        ;
+
+        
+    
+    
+            var marker_da405acc6a5442dca8982b2cd8d191fc = L.marker(
+                [42.1382333, -71.3586333],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_24520e5ed4d844a8b0e90a8e8acc9e04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_da405acc6a5442dca8982b2cd8d191fc.setIcon(icon_24520e5ed4d844a8b0e90a8e8acc9e04);
+        
+    
+        var popup_b7c1e0b3370e4e539e3c784fb6c80694 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9b97b6fea8cf43368c1acfb2304f79cf = $(`<div id="html_9b97b6fea8cf43368c1acfb2304f79cf" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Dean Street/Pleasant Street Bridge</strong><br></div>`)[0];
+            popup_b7c1e0b3370e4e539e3c784fb6c80694.setContent(html_9b97b6fea8cf43368c1acfb2304f79cf);
+        
+
+        marker_da405acc6a5442dca8982b2cd8d191fc.bindPopup(popup_b7c1e0b3370e4e539e3c784fb6c80694)
+        ;
+
+        
+    
+    
+            var marker_fb3572a75a3c4b9387b88ca423cd672e = L.marker(
+                [42.1335083, -71.3619056],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_bd267b9352974fc984664c9e66a2473d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fb3572a75a3c4b9387b88ca423cd672e.setIcon(icon_bd267b9352974fc984664c9e66a2473d);
+        
+    
+        var popup_fe80cbad0dd7460691974cb604dbc3a7 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_55a9c86cc95b4c109e58f706d94cdfb1 = $(`<div id="html_55a9c86cc95b4c109e58f706d94cdfb1" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Myrtle Street bridge</strong><br></div>`)[0];
+            popup_fe80cbad0dd7460691974cb604dbc3a7.setContent(html_55a9c86cc95b4c109e58f706d94cdfb1);
+        
+
+        marker_fb3572a75a3c4b9387b88ca423cd672e.bindPopup(popup_fe80cbad0dd7460691974cb604dbc3a7)
+        ;
+
+        
+    
+    
+            var marker_82f47c327f6045baa155281e518afe2b = L.marker(
+                [42.1400889, -71.3895528],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f46c6036af4f4c4fa9a5e817944efde9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82f47c327f6045baa155281e518afe2b.setIcon(icon_f46c6036af4f4c4fa9a5e817944efde9);
+        
+    
+        var popup_c74fc30db1a8414b8e2a8723ccde8e82 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_2a30f5140ebe4f3fa948185f9beeb4dd = $(`<div id="html_2a30f5140ebe4f3fa948185f9beeb4dd" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Walker Street Bridge</strong><br></div>`)[0];
+            popup_c74fc30db1a8414b8e2a8723ccde8e82.setContent(html_2a30f5140ebe4f3fa948185f9beeb4dd);
+        
+
+        marker_82f47c327f6045baa155281e518afe2b.bindPopup(popup_c74fc30db1a8414b8e2a8723ccde8e82)
+        ;
+
+        
+    
+    
+            var marker_b8e95b38a46f47d491b3d240a78d559a = L.marker(
+                [42.1383222, -71.39833],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_5606437876264631aaedb93ac0b11294 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b8e95b38a46f47d491b3d240a78d559a.setIcon(icon_5606437876264631aaedb93ac0b11294);
+        
+    
+        var popup_cbb8dd411f7a469b878900e088c0e9a1 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9fd4ba2e0b3844cfa4cb7fee643c8c9f = $(`<div id="html_9fd4ba2e0b3844cfa4cb7fee643c8c9f" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Sanford Street Bridge</strong><br></div>`)[0];
+            popup_cbb8dd411f7a469b878900e088c0e9a1.setContent(html_9fd4ba2e0b3844cfa4cb7fee643c8c9f);
+        
+
+        marker_b8e95b38a46f47d491b3d240a78d559a.bindPopup(popup_cbb8dd411f7a469b878900e088c0e9a1)
+        ;
+
+        
+    
+    
+            var marker_c54a99851d004242a856e50f25598d88 = L.marker(
+                [42.138667, -71.398722],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f6fd24e5657a4667848fcb56ee95bad7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c54a99851d004242a856e50f25598d88.setIcon(icon_f6fd24e5657a4667848fcb56ee95bad7);
+        
+    
+        var popup_e321eedad7dc4f5fb04613181ff50f4b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_771d1813108f4b77be3f651b8b8b4993 = $(`<div id="html_771d1813108f4b77be3f651b8b8b4993" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Sanford Mill Dam</strong><br></div>`)[0];
+            popup_e321eedad7dc4f5fb04613181ff50f4b.setContent(html_771d1813108f4b77be3f651b8b8b4993);
+        
+
+        marker_c54a99851d004242a856e50f25598d88.bindPopup(popup_e321eedad7dc4f5fb04613181ff50f4b)
+        ;
+
+        
+    
+    
+            var marker_6e35aa68f99d4077af9bf9858d6120d4 = L.marker(
+                [42.1365, -71.4185333],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_266126532d384716848acb61bab5d11c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e35aa68f99d4077af9bf9858d6120d4.setIcon(icon_266126532d384716848acb61bab5d11c);
+        
+    
+        var popup_9ba79ba9568a4a908a554db0d650219e = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_a24ff505ab134bce81f4949402cc66f7 = $(`<div id="html_a24ff505ab134bce81f4949402cc66f7" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Shaw Street/Elm Street Bridge</strong><br></div>`)[0];
+            popup_9ba79ba9568a4a908a554db0d650219e.setContent(html_a24ff505ab134bce81f4949402cc66f7);
+        
+
+        marker_6e35aa68f99d4077af9bf9858d6120d4.bindPopup(popup_9ba79ba9568a4a908a554db0d650219e)
+        ;
+
+        
+    
+    
+            var marker_5daa935541b948498ea9c6a44226f919 = L.marker(
+                [42.1387194, -71.4219222],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_d0a287f240794aa7a1cd8ae40d371fc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5daa935541b948498ea9c6a44226f919.setIcon(icon_d0a287f240794aa7a1cd8ae40d371fc1);
+        
+    
+        var popup_58fc1d57436840a2a4e58d020ffc8787 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_c4938d2683334786aeb546a055b7230d = $(`<div id="html_c4938d2683334786aeb546a055b7230d" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Woodland Park Bridge</strong><br></div>`)[0];
+            popup_58fc1d57436840a2a4e58d020ffc8787.setContent(html_c4938d2683334786aeb546a055b7230d);
+        
+
+        marker_5daa935541b948498ea9c6a44226f919.bindPopup(popup_58fc1d57436840a2a4e58d020ffc8787)
+        ;
+
+        
+    
+    
+            var marker_4ab96d3e2c8b427bb7d6e2a59761e913 = L.marker(
+                [42.1390611, -71.4241861],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_ccae5d86efc449e2ba941096552a81a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ab96d3e2c8b427bb7d6e2a59761e913.setIcon(icon_ccae5d86efc449e2ba941096552a81a2);
+        
+    
+        var popup_58eac8f378c1426c92ac792a93602572 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_e867e30640b94d34abc2435ef55645df = $(`<div id="html_e867e30640b94d34abc2435ef55645df" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">dam</strong><br></div>`)[0];
+            popup_58eac8f378c1426c92ac792a93602572.setContent(html_e867e30640b94d34abc2435ef55645df);
+        
+
+        marker_4ab96d3e2c8b427bb7d6e2a59761e913.bindPopup(popup_58eac8f378c1426c92ac792a93602572)
+        ;
+
+        
+    
+    
+            var marker_17d12d170fad469e98ed3d5f6177a26a = L.marker(
+                [42.1381556, -71.431075],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_37437592dc9945b1888b42f49ead4c5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_17d12d170fad469e98ed3d5f6177a26a.setIcon(icon_37437592dc9945b1888b42f49ead4c5c);
+        
+    
+        var popup_e46a8c5705bd42298cce3e1eba07def8 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_ce14b28225234cd284132c83f70472b9 = $(`<div id="html_ce14b28225234cd284132c83f70472b9" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Franklin Street/Pond Street Bridge</strong><br></div>`)[0];
+            popup_e46a8c5705bd42298cce3e1eba07def8.setContent(html_ce14b28225234cd284132c83f70472b9);
+        
+
+        marker_17d12d170fad469e98ed3d5f6177a26a.bindPopup(popup_e46a8c5705bd42298cce3e1eba07def8)
+        ;
+
+        
+    
+    
+            var marker_80661f1861b647c3a6a2d8d40a0bd042 = L.marker(
+                [42.1309778, -71.4440361],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_ae6d7fc7539e4cb6a621caf15f5d2f98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80661f1861b647c3a6a2d8d40a0bd042.setIcon(icon_ae6d7fc7539e4cb6a621caf15f5d2f98);
+        
+    
+        var popup_8b83aa5e9c834094b8efce43caf7aa51 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f577e69a98f349708c7c16c56a446216 = $(`<div id="html_f577e69a98f349708c7c16c56a446216" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Pearl Street Bridge</strong><br></div>`)[0];
+            popup_8b83aa5e9c834094b8efce43caf7aa51.setContent(html_f577e69a98f349708c7c16c56a446216);
+        
+
+        marker_80661f1861b647c3a6a2d8d40a0bd042.bindPopup(popup_8b83aa5e9c834094b8efce43caf7aa51)
+        ;
+
+        
+    
+    
+            var marker_1315f1b58c0248b599d34344df5ed7a8 = L.marker(
+                [42.1227972, -71.4476917],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_c198f363c307418d8f40a473005a3e4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1315f1b58c0248b599d34344df5ed7a8.setIcon(icon_c198f363c307418d8f40a473005a3e4a);
+        
+    
+        var popup_22d751e773ce44c4b4436a86e49600f1 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f16bd47fd7bc421681802c1c969e89e2 = $(`<div id="html_f16bd47fd7bc421681802c1c969e89e2" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Plymouth Road Bridge</strong><br></div>`)[0];
+            popup_22d751e773ce44c4b4436a86e49600f1.setContent(html_f16bd47fd7bc421681802c1c969e89e2);
+        
+
+        marker_1315f1b58c0248b599d34344df5ed7a8.bindPopup(popup_22d751e773ce44c4b4436a86e49600f1)
+        ;
+
+        
+    
+    
+            var marker_4a06726aaca14f9583d541fb3ea642ab = L.marker(
+                [42.1195333, -71.4534306],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_22163644429b472c8825c14404297aae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a06726aaca14f9583d541fb3ea642ab.setIcon(icon_22163644429b472c8825c14404297aae);
+        
+    
+        var popup_4c84818130944922a14cf1cc0f5f0ab0 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_bb66dfa4d06c40c8a1e5738ce80aaca7 = $(`<div id="html_bb66dfa4d06c40c8a1e5738ce80aaca7" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Maple Street Bridge</strong><br></div>`)[0];
+            popup_4c84818130944922a14cf1cc0f5f0ab0.setContent(html_bb66dfa4d06c40c8a1e5738ce80aaca7);
+        
+
+        marker_4a06726aaca14f9583d541fb3ea642ab.bindPopup(popup_4c84818130944922a14cf1cc0f5f0ab0)
+        ;
+
+        
+    
+    
+            var marker_43eefa670a9a4ddeb9fb9687d3fd822d = L.marker(
+                [42.119056, -71.454222],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f82439514cd741c8b4629d8c33946722 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_43eefa670a9a4ddeb9fb9687d3fd822d.setIcon(icon_f82439514cd741c8b4629d8c33946722);
+        
+    
+        var popup_38d2299efaef4fb380b8cbcd1d62178b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_d4306c665a784578af6dd28be65591a0 = $(`<div id="html_d4306c665a784578af6dd28be65591a0" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Maple Street Dam</strong><br></div>`)[0];
+            popup_38d2299efaef4fb380b8cbcd1d62178b.setContent(html_d4306c665a784578af6dd28be65591a0);
+        
+
+        marker_43eefa670a9a4ddeb9fb9687d3fd822d.bindPopup(popup_38d2299efaef4fb380b8cbcd1d62178b)
+        ;
+
+        
+    
+    
+            var marker_400a15fbab01441493949c02e7d906cf = L.marker(
+                [42.1075, -71.45833],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_ffb04d0ab2874786b38888bfa3b993d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_400a15fbab01441493949c02e7d906cf.setIcon(icon_ffb04d0ab2874786b38888bfa3b993d3);
+        
+    
+        var popup_f7e748616f424db8ba4dd32bcb34b62c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_3314faea391d4a1bb1a3c2a7edce1c37 = $(`<div id="html_3314faea391d4a1bb1a3c2a7edce1c37" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">I-495 bridge</strong><br></div>`)[0];
+            popup_f7e748616f424db8ba4dd32bcb34b62c.setContent(html_3314faea391d4a1bb1a3c2a7edce1c37);
+        
+
+        marker_400a15fbab01441493949c02e7d906cf.bindPopup(popup_f7e748616f424db8ba4dd32bcb34b62c)
+        ;
+
+        
+    
+    
+            var marker_b9e1aa9fd81a412b8476617a3c94b006 = L.marker(
+                [42.0974139, -71.4591861],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_8a861ef7ee0943ed9aee9fadb8d8735a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b9e1aa9fd81a412b8476617a3c94b006.setIcon(icon_8a861ef7ee0943ed9aee9fadb8d8735a);
+        
+    
+        var popup_257a79c387384ea6a2c9e191389d97b5 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_6d947795b48d4ef68ebada55d2d9ea36 = $(`<div id="html_6d947795b48d4ef68ebada55d2d9ea36" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">High Street Bridge</strong><br></div>`)[0];
+            popup_257a79c387384ea6a2c9e191389d97b5.setContent(html_6d947795b48d4ef68ebada55d2d9ea36);
+        
+
+        marker_b9e1aa9fd81a412b8476617a3c94b006.bindPopup(popup_257a79c387384ea6a2c9e191389d97b5)
+        ;
+
+        
+    
+    
+            var marker_76d07ac80c8149bfa324f63a932f5f7c = L.marker(
+                [42.0896972, -71.4703222],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_a03faa3d35a345f999a8008e12f184f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76d07ac80c8149bfa324f63a932f5f7c.setIcon(icon_a03faa3d35a345f999a8008e12f184f2);
+        
+    
+        var popup_f3d9397049f04edd879bf9d888c33d45 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_ccc8fdfb46d54f0089dfb1fead4f8e2f = $(`<div id="html_ccc8fdfb46d54f0089dfb1fead4f8e2f" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">footbridge</strong><br></div>`)[0];
+            popup_f3d9397049f04edd879bf9d888c33d45.setContent(html_ccc8fdfb46d54f0089dfb1fead4f8e2f);
+        
+
+        marker_76d07ac80c8149bfa324f63a932f5f7c.bindPopup(popup_f3d9397049f04edd879bf9d888c33d45)
+        ;
+
+        
+    
+    
+            var marker_c87f1e0244be4e5f85a627b67f55bd48 = L.marker(
+                [42.09417, -71.47611],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_03f2074c2f4441c3bcd661d570b71975 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c87f1e0244be4e5f85a627b67f55bd48.setIcon(icon_03f2074c2f4441c3bcd661d570b71975);
+        
+    
+        var popup_59dafff6f65c4daba1d0f53b23673535 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_81f157bcbc2249d4a7f72e35c0dd5a1c = $(`<div id="html_81f157bcbc2249d4a7f72e35c0dd5a1c" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">North Main Street Bridge</strong><br></div>`)[0];
+            popup_59dafff6f65c4daba1d0f53b23673535.setContent(html_81f157bcbc2249d4a7f72e35c0dd5a1c);
+        
+
+        marker_c87f1e0244be4e5f85a627b67f55bd48.bindPopup(popup_59dafff6f65c4daba1d0f53b23673535)
+        ;
+
+        
+    
+    
+            var marker_d2575fa23c1048f1a8dc27e805c79935 = L.marker(
+                [42.0943167, -71.4807528],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_cb897c8a53fc4d65bd1a5d7a98d9332b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2575fa23c1048f1a8dc27e805c79935.setIcon(icon_cb897c8a53fc4d65bd1a5d7a98d9332b);
+        
+    
+        var popup_185625c0d7574d02a10082be0849e10c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_0cfda8ed317a4691b7a788e93958ffd7 = $(`<div id="html_0cfda8ed317a4691b7a788e93958ffd7" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_185625c0d7574d02a10082be0849e10c.setContent(html_0cfda8ed317a4691b7a788e93958ffd7);
+        
+
+        marker_d2575fa23c1048f1a8dc27e805c79935.bindPopup(popup_185625c0d7574d02a10082be0849e10c)
+        ;
+
+        
+    
+    
+            var marker_b3b3ea8e1b0649179c5e65f6ea6a1a02 = L.marker(
+                [42.0939972, -71.482125],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_a97296ce0f024bba9aa84e868f3c1b33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3b3ea8e1b0649179c5e65f6ea6a1a02.setIcon(icon_a97296ce0f024bba9aa84e868f3c1b33);
+        
+    
+        var popup_0439b53f463a4bd6a536d61ef2f7867b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9a4992b76cb14173bcce96489b3223ac = $(`<div id="html_9a4992b76cb14173bcce96489b3223ac" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Depot Street Bridge</strong><br></div>`)[0];
+            popup_0439b53f463a4bd6a536d61ef2f7867b.setContent(html_9a4992b76cb14173bcce96489b3223ac);
+        
+
+        marker_b3b3ea8e1b0649179c5e65f6ea6a1a02.bindPopup(popup_0439b53f463a4bd6a536d61ef2f7867b)
+        ;
+
+        
+    
+    
+            var marker_527b9994b19747b4a7e72ebf66a24953 = L.marker(
+                [42.1034472, -71.499775],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_ee1db67c84b24d78b29d509a0ac27dc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_527b9994b19747b4a7e72ebf66a24953.setIcon(icon_ee1db67c84b24d78b29d509a0ac27dc7);
+        
+    
+        var popup_b4416b2e27b34759a6f58403ee6d05d9 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_ba6fa1ed7d4d4105aa20845c762dda69 = $(`<div id="html_ba6fa1ed7d4d4105aa20845c762dda69" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Hartford Avenue Bridge</strong><br></div>`)[0];
+            popup_b4416b2e27b34759a6f58403ee6d05d9.setContent(html_ba6fa1ed7d4d4105aa20845c762dda69);
+        
+
+        marker_527b9994b19747b4a7e72ebf66a24953.bindPopup(popup_b4416b2e27b34759a6f58403ee6d05d9)
+        ;
+
+        
+    
+    
+            var marker_592a5e352d78463795747420e53ba9c8 = L.marker(
+                [42.111611, -71.501361],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_24d7146211c94767915dcd671b702f7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_592a5e352d78463795747420e53ba9c8.setIcon(icon_24d7146211c94767915dcd671b702f7d);
+        
+    
+        var popup_308d4e795e0240e0ae3d65f1250b1567 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_b1cb00885b974b9889fcc0699d984613 = $(`<div id="html_b1cb00885b974b9889fcc0699d984613" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_308d4e795e0240e0ae3d65f1250b1567.setContent(html_b1cb00885b974b9889fcc0699d984613);
+        
+
+        marker_592a5e352d78463795747420e53ba9c8.bindPopup(popup_308d4e795e0240e0ae3d65f1250b1567)
+        ;
+
+        
+    
+    
+            var marker_6d56629c58fd49958a633421909d3283 = L.marker(
+                [42.116889, -71.50139],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_1949eaa9923d48719e5df953b72b0392 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6d56629c58fd49958a633421909d3283.setIcon(icon_1949eaa9923d48719e5df953b72b0392);
+        
+    
+        var popup_9059b3bcf4b744b48a50d95ebdff7bf1 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_ba8337fb199f4184bb10c0c32ec3f6e1 = $(`<div id="html_ba8337fb199f4184bb10c0c32ec3f6e1" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Mellen Street Bridge and Dam</strong><br></div>`)[0];
+            popup_9059b3bcf4b744b48a50d95ebdff7bf1.setContent(html_ba8337fb199f4184bb10c0c32ec3f6e1);
+        
+
+        marker_6d56629c58fd49958a633421909d3283.bindPopup(popup_9059b3bcf4b744b48a50d95ebdff7bf1)
+        ;
+
+        
+    
+    
+            var marker_3b3795130c734cb2a77b0e32110096a4 = L.marker(
+                [42.1181389, -71.5049667],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_85be8a842a884070b93e3054cc9912bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3b3795130c734cb2a77b0e32110096a4.setIcon(icon_85be8a842a884070b93e3054cc9912bc);
+        
+    
+        var popup_21227cc766284f07bb8deb7513f1f192 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_1b8ce8f63637406698e52677847af6e9 = $(`<div id="html_1b8ce8f63637406698e52677847af6e9" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Howard Street Bridge</strong><br></div>`)[0];
+            popup_21227cc766284f07bb8deb7513f1f192.setContent(html_1b8ce8f63637406698e52677847af6e9);
+        
+
+        marker_3b3795130c734cb2a77b0e32110096a4.bindPopup(popup_21227cc766284f07bb8deb7513f1f192)
+        ;
+
+        
+    
+    
+            var marker_9cd1be3a0e534fa0b76349c6f2cfce14 = L.marker(
+                [42.1186722, -71.505825],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_fe80e756689f45de8732faa20b449224 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9cd1be3a0e534fa0b76349c6f2cfce14.setIcon(icon_fe80e756689f45de8732faa20b449224);
+        
+    
+        var popup_c01c618ce0fe44069f19b3167c52fa52 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f27c75c9ad4a4d7f8c9b5be202c17961 = $(`<div id="html_f27c75c9ad4a4d7f8c9b5be202c17961" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_c01c618ce0fe44069f19b3167c52fa52.setContent(html_f27c75c9ad4a4d7f8c9b5be202c17961);
+        
+
+        marker_9cd1be3a0e534fa0b76349c6f2cfce14.bindPopup(popup_c01c618ce0fe44069f19b3167c52fa52)
+        ;
+
+        
+    
+    
+            var marker_df43d6aa65904822bc289f7c65816b2e = L.marker(
+                [42.12556, -71.50917],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_70449446c2504a5db85cc68dccbe2471 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_df43d6aa65904822bc289f7c65816b2e.setIcon(icon_70449446c2504a5db85cc68dccbe2471);
+        
+    
+        var popup_a95ac34099694fd299127eae540a9766 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_5c145a66d71e4eebaed097b83e204798 = $(`<div id="html_5c145a66d71e4eebaed097b83e204798" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Howard Street Bridge</strong><br></div>`)[0];
+            popup_a95ac34099694fd299127eae540a9766.setContent(html_5c145a66d71e4eebaed097b83e204798);
+        
+
+        marker_df43d6aa65904822bc289f7c65816b2e.bindPopup(popup_a95ac34099694fd299127eae540a9766)
+        ;
+
+        
+    
+    
+            var marker_279269c9921d4a1dbdc6e8b673af0003 = L.marker(
+                [42.126917, -71.509417],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_6242411495e74ca7bfbf0c1a74f072d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_279269c9921d4a1dbdc6e8b673af0003.setIcon(icon_6242411495e74ca7bfbf0c1a74f072d7);
+        
+    
+        var popup_8a130ac92ecb43168349d1a920bcb6ae = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f3a95cccf9434e368c8bbde964841dfa = $(`<div id="html_f3a95cccf9434e368c8bbde964841dfa" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">rail bridge</strong><br></div>`)[0];
+            popup_8a130ac92ecb43168349d1a920bcb6ae.setContent(html_f3a95cccf9434e368c8bbde964841dfa);
+        
+
+        marker_279269c9921d4a1dbdc6e8b673af0003.bindPopup(popup_8a130ac92ecb43168349d1a920bcb6ae)
+        ;
+
+        
+    
+    
+            var marker_f1459d5a9c384905b41b2121b5f5c5d5 = L.marker(
+                [42.13917, -71.5125],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_0e3af95a42a04e7bba2de0059bda53fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f1459d5a9c384905b41b2121b5f5c5d5.setIcon(icon_0e3af95a42a04e7bba2de0059bda53fc);
+        
+    
+        var popup_cddd70b8aa0e490c830a21a56fccff89 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_37a0daa548b94ad2bae19fb90279e2c0 = $(`<div id="html_37a0daa548b94ad2bae19fb90279e2c0" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Central Street Bridge</strong><br></div>`)[0];
+            popup_cddd70b8aa0e490c830a21a56fccff89.setContent(html_37a0daa548b94ad2bae19fb90279e2c0);
+        
+
+        marker_f1459d5a9c384905b41b2121b5f5c5d5.bindPopup(popup_cddd70b8aa0e490c830a21a56fccff89)
+        ;
+
+        
+    
+    
+            var marker_49a565d71eae4a18a53afefab04443c4 = L.marker(
+                [42.14361, -71.51306],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_45b0a701d0004a07b9bfbbccd9c43d89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49a565d71eae4a18a53afefab04443c4.setIcon(icon_45b0a701d0004a07b9bfbbccd9c43d89);
+        
+    
+        var popup_98f06210ce924dbaa2fa42ef879f137c = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_566295f977854c87b369e070eaaf4fec = $(`<div id="html_566295f977854c87b369e070eaaf4fec" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Main Street Culvert</strong><br></div>`)[0];
+            popup_98f06210ce924dbaa2fa42ef879f137c.setContent(html_566295f977854c87b369e070eaaf4fec);
+        
+
+        marker_49a565d71eae4a18a53afefab04443c4.bindPopup(popup_98f06210ce924dbaa2fa42ef879f137c)
+        ;
+
+        
+    
+    
+            var marker_02fc681f325d4943a0a59d60e657a1f9 = L.marker(
+                [42.147472, -71.513667],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_6277eacaa0ed457b865cfd0197ec0fe3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_02fc681f325d4943a0a59d60e657a1f9.setIcon(icon_6277eacaa0ed457b865cfd0197ec0fe3);
+        
+    
+        var popup_95b05f3f243a4857b4558a65fd0e49d6 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_9e5fb4ec4dfe44bbbc64ae30f4749e46 = $(`<div id="html_9e5fb4ec4dfe44bbbc64ae30f4749e46" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Milford Pond Dam and Footbridge</strong><br></div>`)[0];
+            popup_95b05f3f243a4857b4558a65fd0e49d6.setContent(html_9e5fb4ec4dfe44bbbc64ae30f4749e46);
+        
+
+        marker_02fc681f325d4943a0a59d60e657a1f9.bindPopup(popup_95b05f3f243a4857b4558a65fd0e49d6)
+        ;
+
+        
+    
+    
+            var marker_a6da239a565340819748cce44c420c68 = L.marker(
+                [42.16139, -71.51194],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_2ab22b791dee45bc93478759667f12a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a6da239a565340819748cce44c420c68.setIcon(icon_2ab22b791dee45bc93478759667f12a2);
+        
+    
+        var popup_337d59f3bd304a4eb5ecb6f480c7800f = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_c335f8f380514926860a95fcaf1fac4e = $(`<div id="html_c335f8f380514926860a95fcaf1fac4e" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Dilla Street Bridge</strong><br></div>`)[0];
+            popup_337d59f3bd304a4eb5ecb6f480c7800f.setContent(html_c335f8f380514926860a95fcaf1fac4e);
+        
+
+        marker_a6da239a565340819748cce44c420c68.bindPopup(popup_337d59f3bd304a4eb5ecb6f480c7800f)
+        ;
+
+        
+    
+    
+            var marker_2b2ecc9f507e4de6b8e0f1465258f87f = L.marker(
+                [42.161472, -71.511611],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_4ae2c870dcae451194589b304a9649f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b2ecc9f507e4de6b8e0f1465258f87f.setIcon(icon_4ae2c870dcae451194589b304a9649f8);
+        
+    
+        var popup_1e8d61b76a014acda010cd97c5bd2d23 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_e8891d9ea6e8477f8f43f2cd66f2ab00 = $(`<div id="html_e8891d9ea6e8477f8f43f2cd66f2ab00" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Dilla Street Dam</strong><br></div>`)[0];
+            popup_1e8d61b76a014acda010cd97c5bd2d23.setContent(html_e8891d9ea6e8477f8f43f2cd66f2ab00);
+        
+
+        marker_2b2ecc9f507e4de6b8e0f1465258f87f.bindPopup(popup_1e8d61b76a014acda010cd97c5bd2d23)
+        ;
+
+        
+    
+    
+            var marker_2b4981043787472caa3cfdaeb5d0868f = L.marker(
+                [42.164528, -71.51075],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_e8b024550ded4f23ae7347ffd0c4209f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b4981043787472caa3cfdaeb5d0868f.setIcon(icon_e8b024550ded4f23ae7347ffd0c4209f);
+        
+    
+        var popup_4f072e13668a4916bf9efb065dba0754 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_f7c99da75b7c4770ad06974f92812e59 = $(`<div id="html_f7c99da75b7c4770ad06974f92812e59" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">old road bridge</strong><br></div>`)[0];
+            popup_4f072e13668a4916bf9efb065dba0754.setContent(html_f7c99da75b7c4770ad06974f92812e59);
+        
+
+        marker_2b4981043787472caa3cfdaeb5d0868f.bindPopup(popup_4f072e13668a4916bf9efb065dba0754)
+        ;
+
+        
+    
+    
+            var marker_a76c336beef249949ca3f42351af48c3 = L.marker(
+                [42.164556, -71.510806],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_5483eb18936149d087febd2bb84ce6ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a76c336beef249949ca3f42351af48c3.setIcon(icon_5483eb18936149d087febd2bb84ce6ca);
+        
+    
+        var popup_4fba056dc9644e729261f6dae99df4b1 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_4af4b1d2abd44770a5185c31b17dfef6 = $(`<div id="html_4af4b1d2abd44770a5185c31b17dfef6" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">culvert</strong><br></div>`)[0];
+            popup_4fba056dc9644e729261f6dae99df4b1.setContent(html_4af4b1d2abd44770a5185c31b17dfef6);
+        
+
+        marker_a76c336beef249949ca3f42351af48c3.bindPopup(popup_4fba056dc9644e729261f6dae99df4b1)
+        ;
+
+        
+    
+    
+            var marker_683a4fc9cdcc433a9d6ce706fc9ef341 = L.marker(
+                [42.16778, -71.51139],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_82cbaef80871483d9e5b28232e36b336 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_683a4fc9cdcc433a9d6ce706fc9ef341.setIcon(icon_82cbaef80871483d9e5b28232e36b336);
+        
+    
+        var popup_3da686f8210047bcbd978e25aa5e7c27 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_00c64461619d4268a6568c8f482b4ab5 = $(`<div id="html_00c64461619d4268a6568c8f482b4ab5" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">I-495 culvert (Exit 20)</strong><br></div>`)[0];
+            popup_3da686f8210047bcbd978e25aa5e7c27.setContent(html_00c64461619d4268a6568c8f482b4ab5);
+        
+
+        marker_683a4fc9cdcc433a9d6ce706fc9ef341.bindPopup(popup_3da686f8210047bcbd978e25aa5e7c27)
+        ;
+
+        
+    
+    
+            var marker_b000fb9862654a1b8d81d25956b36094 = L.marker(
+                [42.119056, -71.454222],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_a0cc8adc38a54777a40f9121552ce8e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b000fb9862654a1b8d81d25956b36094.setIcon(icon_a0cc8adc38a54777a40f9121552ce8e5);
+        
+    
+        var popup_dd42383a4dc44b42801577c74a9301e1 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_e066ca3fb11041d8ab1cfb5845dc287d = $(`<div id="html_e066ca3fb11041d8ab1cfb5845dc287d" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Wildcat Pond Bridge and Dam</strong><br></div>`)[0];
+            popup_dd42383a4dc44b42801577c74a9301e1.setContent(html_e066ca3fb11041d8ab1cfb5845dc287d);
+        
+
+        marker_b000fb9862654a1b8d81d25956b36094.bindPopup(popup_dd42383a4dc44b42801577c74a9301e1)
+        ;
+
+        
+    
+    
+            var marker_a639ac4f39674b5098c95f8fa95c1923 = L.marker(
+                [42.172861, -71.509528],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_518039e8912e44ffa63d14d2fb4104b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a639ac4f39674b5098c95f8fa95c1923.setIcon(icon_518039e8912e44ffa63d14d2fb4104b0);
+        
+    
+        var popup_b056b41f983a4330b5ebe1a40aa51199 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_59abc3b85bad4b51a218c63ceb70f889 = $(`<div id="html_59abc3b85bad4b51a218c63ceb70f889" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">footbridge</strong><br></div>`)[0];
+            popup_b056b41f983a4330b5ebe1a40aa51199.setContent(html_59abc3b85bad4b51a218c63ceb70f889);
+        
+
+        marker_a639ac4f39674b5098c95f8fa95c1923.bindPopup(popup_b056b41f983a4330b5ebe1a40aa51199)
+        ;
+
+        
+    
+    
+            var marker_4c68aa060cf64794a4577ba8878236a9 = L.marker(
+                [42.173806, -71.5085],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f4d30ae205454de68abfdcac7dd69207 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c68aa060cf64794a4577ba8878236a9.setIcon(icon_f4d30ae205454de68abfdcac7dd69207);
+        
+    
+        var popup_010afcf18e8f481baad0c9632daa1f83 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_435646ce009642b8a2f7f3754888b51c = $(`<div id="html_435646ce009642b8a2f7f3754888b51c" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">bridge</strong><br></div>`)[0];
+            popup_010afcf18e8f481baad0c9632daa1f83.setContent(html_435646ce009642b8a2f7f3754888b51c);
+        
+
+        marker_4c68aa060cf64794a4577ba8878236a9.bindPopup(popup_010afcf18e8f481baad0c9632daa1f83)
+        ;
+
+        
+    
+    
+            var marker_9afa0ffbb3614f5abac490b884247b98 = L.marker(
+                [42.17389, -71.50833],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_6ac3cede31414127ab4fce9bf976a2d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9afa0ffbb3614f5abac490b884247b98.setIcon(icon_6ac3cede31414127ab4fce9bf976a2d6);
+        
+    
+        var popup_f7ce259396f6480483d2c5068bbb1d94 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_b3398dfb59d54dc1b4a0d5cb2faaf5e8 = $(`<div id="html_b3398dfb59d54dc1b4a0d5cb2faaf5e8" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Route 85 bridge</strong><br></div>`)[0];
+            popup_f7ce259396f6480483d2c5068bbb1d94.setContent(html_b3398dfb59d54dc1b4a0d5cb2faaf5e8);
+        
+
+        marker_9afa0ffbb3614f5abac490b884247b98.bindPopup(popup_f7ce259396f6480483d2c5068bbb1d94)
+        ;
+
+        
+    
+    
+            var marker_268154b2dc76457e90ac92331972e619 = L.marker(
+                [42.178806, -71.506028],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_f23ae5848adc41a383c3831aec229134 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_268154b2dc76457e90ac92331972e619.setIcon(icon_f23ae5848adc41a383c3831aec229134);
+        
+    
+        var popup_41630a74157c4b65bbb5ae9c01d0c426 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_93095e5a5580466ea771aff01963d9ed = $(`<div id="html_93095e5a5580466ea771aff01963d9ed" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">footbridge</strong><br></div>`)[0];
+            popup_41630a74157c4b65bbb5ae9c01d0c426.setContent(html_93095e5a5580466ea771aff01963d9ed);
+        
+
+        marker_268154b2dc76457e90ac92331972e619.bindPopup(popup_41630a74157c4b65bbb5ae9c01d0c426)
+        ;
+
+        
+    
+    
+            var marker_d2cf465f53d14b5cb1d5d88fa62c4e84 = L.marker(
+                [42.178917, -71.506139],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_e16ca8a80feb46fb967fe182ef057793 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2cf465f53d14b5cb1d5d88fa62c4e84.setIcon(icon_e16ca8a80feb46fb967fe182ef057793);
+        
+    
+        var popup_4b7001edeb6a4dc18949adfb36ec296e = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_689b2343036742f381474570a8f68c82 = $(`<div id="html_689b2343036742f381474570a8f68c82" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">bridge</strong><br></div>`)[0];
+            popup_4b7001edeb6a4dc18949adfb36ec296e.setContent(html_689b2343036742f381474570a8f68c82);
+        
+
+        marker_d2cf465f53d14b5cb1d5d88fa62c4e84.bindPopup(popup_4b7001edeb6a4dc18949adfb36ec296e)
+        ;
+
+        
+    
+    
+            var marker_c3de398e6389489ba743b4f27cbdd03c = L.marker(
+                [42.18125, -71.505472],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_7d8d337b975a4d0f93aa6b1b73c0f32b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3de398e6389489ba743b4f27cbdd03c.setIcon(icon_7d8d337b975a4d0f93aa6b1b73c0f32b);
+        
+    
+        var popup_e30e6c9ca4e64c53a2e3190c00d9d026 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_4992aa0b9b314157b73ac2da21cd0a2f = $(`<div id="html_4992aa0b9b314157b73ac2da21cd0a2f" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">footbridge</strong><br></div>`)[0];
+            popup_e30e6c9ca4e64c53a2e3190c00d9d026.setContent(html_4992aa0b9b314157b73ac2da21cd0a2f);
+        
+
+        marker_c3de398e6389489ba743b4f27cbdd03c.bindPopup(popup_e30e6c9ca4e64c53a2e3190c00d9d026)
+        ;
+
+        
+    
+    
+            var marker_264dab8963374e5faae3a0bd90b1cfee = L.marker(
+                [42.181889, -71.505778],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_31a09334b2ca4c74bfcc0f1cbdf39550 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_264dab8963374e5faae3a0bd90b1cfee.setIcon(icon_31a09334b2ca4c74bfcc0f1cbdf39550);
+        
+    
+        var popup_7a723d89ca4c4154b7d972167e2aec8b = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_02edb86afa2e484cb574010bc5867f9f = $(`<div id="html_02edb86afa2e484cb574010bc5867f9f" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">footbridge</strong><br></div>`)[0];
+            popup_7a723d89ca4c4154b7d972167e2aec8b.setContent(html_02edb86afa2e484cb574010bc5867f9f);
+        
+
+        marker_264dab8963374e5faae3a0bd90b1cfee.bindPopup(popup_7a723d89ca4c4154b7d972167e2aec8b)
+        ;
+
+        
+    
+    
+            var marker_12cb5bb34aa04e34a0cdbe9c470a998d = L.marker(
+                [42.18194, -71.50611],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_d0b32c12d4f7452bb45396f03a88e180 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12cb5bb34aa04e34a0cdbe9c470a998d.setIcon(icon_d0b32c12d4f7452bb45396f03a88e180);
+        
+    
+        var popup_e9e1d8713c9f4a329cb230b9d72ffe41 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_15bd0ff1205544ebb3264a48fce2be33 = $(`<div id="html_15bd0ff1205544ebb3264a48fce2be33" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Route 85 bridge</strong><br></div>`)[0];
+            popup_e9e1d8713c9f4a329cb230b9d72ffe41.setContent(html_15bd0ff1205544ebb3264a48fce2be33);
+        
+
+        marker_12cb5bb34aa04e34a0cdbe9c470a998d.bindPopup(popup_e9e1d8713c9f4a329cb230b9d72ffe41)
+        ;
+
+        
+    
+    
+            var marker_1cb94304697c4c6f8b5f68025ac1740b = L.marker(
+                [42.19222, -71.507972],
+                {}
+            ).addTo(map_f7cc27ac81344b9c97b34555791bb8fe);
+        
+    
+            var icon_06dbbe8c1dc045249643973ba5005373 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1cb94304697c4c6f8b5f68025ac1740b.setIcon(icon_06dbbe8c1dc045249643973ba5005373);
+        
+    
+        var popup_1545d9758478494a8b5b7b7751001544 = L.popup({"maxHeight": "300", "maxWidth": "300"});
+
+        
+            var html_0cb4f60a7cc14a42a47f3ffc6d327280 = $(`<div id="html_0cb4f60a7cc14a42a47f3ffc6d327280" style="width: 100.0%; height: 100.0%;"><strong style="color:#967bb6;">Echo Lake Dam</strong><br></div>`)[0];
+            popup_1545d9758478494a8b5b7b7751001544.setContent(html_0cb4f60a7cc14a42a47f3ffc6d327280);
+        
+
+        marker_1cb94304697c4c6f8b5f68025ac1740b.bindPopup(popup_1545d9758478494a8b5b7b7751001544)
+        ;
+
+        
+    
+</script>
